@@ -2,7 +2,7 @@
  "label": "Practice mode, fake money",
  "start": 44.82,
  "cash": 35.72179509949025,
- "equity": 45.98525511945422,
+ "equity": 46.03610263274645,
  "trades_n": 3,
  "closed": {
   "n": 2,
@@ -14,7 +14,7 @@
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 9.019516792576249e-05,
-   "last_px": 9.285e-05,
+   "last_px": 9.331e-05,
    "exit_px": null,
    "pnl": null,
    "opened": 1793026718.0849366,
@@ -30,7 +30,7 @@
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 9.019516792576249e-05,
-   "last_px": 9.285e-05,
+   "last_px": 9.331e-05,
    "exit_px": null,
    "pnl": null,
    "opened": 1793026718.0849366,
@@ -118,6 +118,6 @@
  ],
  "rej_total": 201,
  "recent_rejections": 37,
- "updated_ts": 1793028962,
+ "updated_ts": 1793028991,
  "updated_manila": "2026-10-26 23:36 (Manila, UTC+8)"
 }
