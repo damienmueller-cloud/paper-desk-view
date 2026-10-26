@@ -17,7 +17,20 @@ h2{font-size:13px;color:#8b949e;text-transform:uppercase;margin:0 0 8px}.big{fon
 <script>
 const $=i=>document.getElementById(i),f=(x,d=2)=>x==null?'—':Number(x).toFixed(d),e=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const t=ts=>ts?new Date(ts*1000).toLocaleString('en-PH',{timeZone:'Asia/Manila'}):'';const cl=v=>v>=0?'g':'r';
-async function go(){try{const s=await (await fetch('state.json?'+Date.now(),{cache:'no-store'})).json();
+let cur=null,et=null,apiNext=0;
+const API='https://api.github.com/repos/damienmueller-cloud/paper-desk-view/contents/state.json';
+async function getPages(){const r=await fetch('state.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;return r.json()}
+async function getApi(){if(Date.now()<apiNext)return null;apiNext=Date.now()+75000;
+ const h={Accept:'application/vnd.github.raw'};if(et)h['If-None-Match']=et;
+ const r=await fetch(API,{headers:h,cache:'no-store'});
+ if(r.status==304)return null;if(!r.ok){if(r.status==403||r.status==429)apiNext=Date.now()+600000;return null}
+ et=r.headers.get('ETag');return r.json()}
+async function poll(){if(document.hidden)return;const rs=await Promise.allSettled([getApi(),getPages()]);
+ let ok=false;for(const x of rs)if(x.status=='fulfilled'&&x.value){ok=true;if(!cur||(x.value.updated_ts||0)>=(cur.updated_ts||0))cur=x.value}
+ if(cur)render(cur);else if(!ok)$('up').textContent='connection lost, retrying…'}
+function tick(){if(!cur)return;const s=Math.max(0,Math.round(Date.now()/1000-cur.updated_ts));
+ $('up').innerHTML=`<span style="color:${s<120?'#3fb950':'#d29922'}">●</span> ${s<120?'live':'delayed'} · updated ${s<60?s+'s':Math.floor(s/60)+'m '+(s%60)+'s'} ago (${e(cur.updated_manila)}) · Practice mode, fake money`}
+function render(s){try{
 $('eq').textContent='$'+f(s.equity);const d=s.equity-s.start;$('pl').innerHTML=`<span class="${cl(d)}">${d>=0?'+':''}$${f(d)} (${f(d/s.start*100)}%)</span> vs US$${f(s.start)} start`;
 $('sub').textContent=`cash $${f(s.cash)} · ${s.trades_n} trades · realized $${f(s.closed?.pnl)} · practice mode, fake money`;
 const c=s.curve.map(p=>p.equity).concat([s.equity]);const mn=Math.min(...c,s.start),mx=Math.max(...c,s.start),sc=v=>130-(v-mn)/((mx-mn)||1)*120;
@@ -27,5 +40,5 @@ $('op').innerHTML=s.open.length?s.open.map(p=>{const u=(p.last_px/p.entry_px-1)*
 $('tr').innerHTML=s.trades.map(p=>`<div class="row"><div><b>${e(p.symbol)}</b> <span class="pill">${e(p.status)}</span><div class="m">in: ${e(p.reason_open)}${p.reason_close?'<br>out: '+e(p.reason_close):''}</div><div class="m">${t(p.opened)}</div></div><div class="${cl(p.pnl||0)}">${p.pnl==null?'open':'$'+f(p.pnl)}</div></div>`).join('')||'<div class="m">none</div>';
 $('rt').textContent=s.rej_total;$('rr').textContent=s.recent_rejections;$('rj').innerHTML=s.rej.map(r=>`<div class="row"><span>${e(r.check_name)}</span><b>${r.n}</b></div>`).join('')||'<div class="m">none</div>';
 
-$('up').textContent='Practice mode, fake money · data updated '+s.updated_manila+' · snapshot refreshes every 5 min';}catch(err){$('up').textContent='connection lost, retrying…'}}
-go();setInterval(go,60000);</script></body></html>
+tick();}catch(err){}}
+poll();setInterval(poll,20000);setInterval(tick,1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)poll()});;</script></body></html>
