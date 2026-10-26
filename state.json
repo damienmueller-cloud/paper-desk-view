@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 40.65253266074765,
- "equity": 50.19962087854185,
+ "cash": 49.780305369102535,
+ "equity": 49.780305369102535,
  "trades_n": 6,
  "closed": {
-  "n": 5,
-  "pnl": 5.832532660747649
+  "n": 6,
+  "pnl": 4.960305369102533
  },
- "open": [
-  {
-   "symbol": "KANE",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.006191675837919e-05,
-   "last_px": 6.709e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793053442.4831142,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 2.3x, m5 +67.4%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "KANE",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.006191675837919e-05,
-   "last_px": 6.709e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 6.469e-05,
+   "exit_px": 6.433636432689897e-05,
+   "pnl": -0.8722272916451157,
    "opened": 1793053442.4831142,
-   "closed": null,
-   "status": "open",
+   "closed": 1793053533.5039544,
+   "status": "closed",
    "reason_open": "volume spike 2.3x, m5 +67.4%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "stop loss -7.7%"
   },
   {
    "symbol": "TMNT",
@@ -134,6 +119,10 @@
   {
    "ts": 1793050451.5750287,
    "equity": 50.65253266074765
+  },
+  {
+   "ts": 1793053533.5099814,
+   "equity": 49.780305369102535
   }
  ],
  "rej": [
@@ -175,7 +164,7 @@
   }
  ],
  "rej_total": 299,
- "recent_rejections": 38,
- "updated_ts": 1793053532,
- "updated_manila": "2026-10-27 06:25 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793053561,
+ "updated_manila": "2026-10-27 06:26 (Manila, UTC+8)"
 }
