@@ -1,43 +1,57 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 39.780305369102535,
- "equity": 49.57744257437077,
- "trades_n": 7,
+ "cash": 39.59898365584145,
+ "equity": 49.51646951961224,
+ "trades_n": 8,
  "closed": {
-  "n": 6,
-  "pnl": 4.960305369102533
+  "n": 7,
+  "pnl": 4.778983655841449
  },
  "open": [
   {
-   "symbol": "pumpcat",
+   "symbol": "NOMO",
    "chain": "solana",
    "cost": 10.0,
-   "entry_px": 0.0003697101432908666,
-   "last_px": 0.0003633,
+   "entry_px": 0.0001590376857265621,
+   "last_px": 0.0001582,
    "exit_px": null,
    "pnl": null,
-   "opened": 1793053928.7841213,
+   "opened": 1793054550.8515403,
    "closed": null,
    "status": "open",
-   "reason_open": "volume spike 2.4x, m5 +6.5%; round-trip cost est 1.64%",
+   "reason_open": "volume spike 1.9x, m5 +1.2%; round-trip cost est 1.66%",
    "reason_close": null
   }
  ],
  "trades": [
   {
+   "symbol": "NOMO",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0001590376857265621,
+   "last_px": 0.0001582,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793054550.8515403,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.9x, m5 +1.2%; round-trip cost est 1.66%",
+   "reason_close": null
+  },
+  {
    "symbol": "pumpcat",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0003697101432908666,
-   "last_px": 0.0003633,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0003671,
+   "exit_px": 0.0003651943751331392,
+   "pnl": -0.18132171326108448,
    "opened": 1793053928.7841213,
-   "closed": null,
-   "status": "open",
+   "closed": 1793054550.4875383,
+   "status": "closed",
    "reason_open": "volume spike 2.4x, m5 +6.5%; round-trip cost est 1.64%",
-   "reason_close": null
+   "reason_close": "volume died (m5 < $200) (-0.7%)"
   },
   {
    "symbol": "KANE",
@@ -152,12 +166,16 @@
   {
    "ts": 1793053533.5099814,
    "equity": 49.780305369102535
+  },
+  {
+   "ts": 1793054550.4894753,
+   "equity": 49.59898365584145
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 217
+   "n": 219
   },
   {
    "check_name": "min_pair_age",
@@ -181,7 +199,7 @@
   },
   {
    "check_name": "min_volume",
-   "n": 3
+   "n": 4
   },
   {
    "check_name": "sell_pressure",
@@ -192,8 +210,8 @@
    "n": 2
   }
  ],
- "rej_total": 314,
- "recent_rejections": 37,
- "updated_ts": 1793054191,
- "updated_manila": "2026-10-27 06:36 (Manila, UTC+8)"
+ "rej_total": 317,
+ "recent_rejections": 35,
+ "updated_ts": 1793056212,
+ "updated_manila": "2026-10-27 07:10 (Manila, UTC+8)"
 }
