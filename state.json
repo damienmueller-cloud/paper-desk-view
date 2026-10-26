@@ -1,43 +1,57 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 35.72179509949025,
- "equity": 45.86366323984237,
- "trades_n": 3,
+ "cash": 35.883769672858364,
+ "equity": 45.80322495508226,
+ "trades_n": 4,
  "closed": {
-  "n": 2,
-  "pnl": 0.9017950994902488
+  "n": 3,
+  "pnl": 1.0637696728583599
  },
  "open": [
   {
-   "symbol": "Hellcat",
+   "symbol": "REMUS",
    "chain": "solana",
    "cost": 10.0,
-   "entry_px": 9.019516792576249e-05,
-   "last_px": 9.175e-05,
+   "entry_px": 0.001169931177652146,
+   "last_px": 0.001164,
    "exit_px": null,
    "pnl": null,
-   "opened": 1793026718.0849366,
+   "opened": 1793029448.8939106,
    "closed": null,
    "status": "open",
-   "reason_open": "volume spike 1.2x, m5 +6.1%; round-trip cost est 1.68%",
+   "reason_open": "volume spike 1.5x, m5 +3.5%; round-trip cost est 1.62%",
    "reason_close": null
   }
  ],
  "trades": [
   {
+   "symbol": "REMUS",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.001169931177652146,
+   "last_px": 0.001164,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793029448.8939106,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.5x, m5 +3.5%; round-trip cost est 1.62%",
+   "reason_close": null
+  },
+  {
    "symbol": "Hellcat",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 9.019516792576249e-05,
-   "last_px": 9.175e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 9.271e-05,
+   "exit_px": 9.220852156290992e-05,
+   "pnl": 0.16197457336811105,
    "opened": 1793026718.0849366,
-   "closed": null,
-   "status": "open",
+   "closed": 1793029448.4627488,
+   "status": "closed",
    "reason_open": "volume spike 1.2x, m5 +6.1%; round-trip cost est 1.68%",
-   "reason_close": null
+   "reason_close": "time stop 45m (+2.8%)"
   },
   {
    "symbol": "Chop",
@@ -80,12 +94,16 @@
   {
    "ts": 1793026717.7477355,
    "equity": 45.72179509949025
+  },
+  {
+   "ts": 1793029448.4695349,
+   "equity": 45.883769672858364
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 139
+   "n": 140
   },
   {
    "check_name": "min_pair_age",
@@ -116,8 +134,8 @@
    "n": 1
   }
  ],
- "rej_total": 210,
- "recent_rejections": 40,
- "updated_ts": 1793029442,
+ "rej_total": 211,
+ "recent_rejections": 38,
+ "updated_ts": 1793029472,
  "updated_manila": "2026-10-26 23:44 (Manila, UTC+8)"
 }
