@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 50.65253266074765,
- "equity": 50.65253266074765,
- "trades_n": 5,
+ "cash": 40.65253266074765,
+ "equity": 50.56818487442927,
+ "trades_n": 6,
  "closed": {
   "n": 5,
   "pnl": 5.832532660747649
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "KANE",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.006191675837919e-05,
+   "last_px": 6.968e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793053442.4831142,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.3x, m5 +67.4%; round-trip cost est 1.70%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "KANE",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.006191675837919e-05,
+   "last_px": 6.968e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793053442.4831142,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.3x, m5 +67.4%; round-trip cost est 1.70%",
+   "reason_close": null
+  },
   {
    "symbol": "TMNT",
    "chain": "solana",
@@ -147,6 +176,6 @@
  ],
  "rej_total": 299,
  "recent_rejections": 38,
- "updated_ts": 1793053412,
- "updated_manila": "2026-10-27 06:23 (Manila, UTC+8)"
+ "updated_ts": 1793053471,
+ "updated_manila": "2026-10-27 06:24 (Manila, UTC+8)"
 }
