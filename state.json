@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 35.883769672858364,
- "equity": 45.394175252722505,
+ "cash": 52.62027577798281,
+ "equity": 52.62027577798281,
  "trades_n": 4,
  "closed": {
-  "n": 3,
-  "pnl": 1.0637696728583599
+  "n": 4,
+  "pnl": 7.8002757779828045
  },
- "open": [
-  {
-   "symbol": "REMUS",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.001169931177652146,
-   "last_px": 0.001116,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793029448.8939106,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.5x, m5 +3.5%; round-trip cost est 1.62%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "REMUS",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.001169931177652146,
-   "last_px": 0.001116,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.00198,
+   "exit_px": 0.001969857445692199,
+   "pnl": 6.736506105124445,
    "opened": 1793029448.8939106,
-   "closed": null,
-   "status": "open",
+   "closed": 1793049765.8735971,
+   "status": "closed",
    "reason_open": "volume spike 1.5x, m5 +3.5%; round-trip cost est 1.62%",
-   "reason_close": null
+   "reason_close": "take profit +69.2%"
   },
   {
    "symbol": "Hellcat",
@@ -98,6 +83,10 @@
   {
    "ts": 1793029448.4695349,
    "equity": 45.883769672858364
+  },
+  {
+   "ts": 1793049765.9074655,
+   "equity": 52.62027577798281
   }
  ],
  "rej": [
@@ -135,7 +124,7 @@
   }
  ],
  "rej_total": 219,
- "recent_rejections": 38,
- "updated_ts": 1793031062,
- "updated_manila": "2026-10-27 00:11 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793049766,
+ "updated_manila": "2026-10-27 05:22 (Manila, UTC+8)"
 }
