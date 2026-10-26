@@ -1,0 +1,118 @@
+{
+ "label": "Practice mode, fake money",
+ "start": 44.82,
+ "cash": 35.72179509949025,
+ "equity": 45.93993450978071,
+ "trades_n": 3,
+ "closed": {
+  "n": 2,
+  "pnl": 0.9017950994902488
+ },
+ "open": [
+  {
+   "symbol": "Hellcat",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.019516792576249e-05,
+   "last_px": 9.244e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793026718.0849366,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +6.1%; round-trip cost est 1.68%",
+   "reason_close": null
+  }
+ ],
+ "trades": [
+  {
+   "symbol": "Hellcat",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.019516792576249e-05,
+   "last_px": 9.244e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793026718.0849366,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +6.1%; round-trip cost est 1.68%",
+   "reason_close": null
+  },
+  {
+   "symbol": "Chop",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00014033894920011195,
+   "last_px": 0.000129,
+   "exit_px": 0.00012831886290115145,
+   "pnl": -0.9112826253505304,
+   "opened": 1793026596.1621492,
+   "closed": 1793026717.7441282,
+   "status": "closed",
+   "reason_open": "volume spike 1.5x, m5 +15.1%; round-trip cost est 1.66%",
+   "reason_close": "stop loss -8.1%"
+  },
+  {
+   "symbol": "CATTLEAXE",
+   "chain": "solana",
+   "cost": 11.205,
+   "entry_px": 0.0008029971298184859,
+   "last_px": 0.0009434,
+   "exit_px": 0.0009385527264839736,
+   "pnl": 1.8130777248407792,
+   "opened": 1793022014.2806985,
+   "closed": 1793022339.1226645,
+   "status": "closed",
+   "reason_open": "volume spike 3.3x, m5 +2.8%; round-trip cost est 1.63%",
+   "reason_close": "take profit +17.5%"
+  }
+ ],
+ "curve": [
+  {
+   "ts": 1793022011.1894498,
+   "equity": 44.82
+  },
+  {
+   "ts": 1793022339.127928,
+   "equity": 46.63307772484078
+  },
+  {
+   "ts": 1793026717.7477355,
+   "equity": 45.72179509949025
+  }
+ ],
+ "rej": [
+  {
+   "check_name": "min_liquidity",
+   "n": 126
+  },
+  {
+   "check_name": "max_pair_age",
+   "n": 18
+  },
+  {
+   "check_name": "min_pair_age",
+   "n": 16
+  },
+  {
+   "check_name": "price_present",
+   "n": 14
+  },
+  {
+   "check_name": "risk:max_position_size",
+   "n": 7
+  },
+  {
+   "check_name": "risk:max_open_positions",
+   "n": 7
+  },
+  {
+   "check_name": "min_volume",
+   "n": 3
+  }
+ ],
+ "rej_total": 191,
+ "recent_rejections": 37,
+ "updated_manila": "2026-10-26 23:24 (Manila, UTC+8)"
+}
