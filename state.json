@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 39.59898365584145,
- "equity": 49.51646951961224,
+ "cash": 67.13558075560964,
+ "equity": 67.13558075560964,
  "trades_n": 8,
  "closed": {
-  "n": 7,
-  "pnl": 4.778983655841449
+  "n": 8,
+  "pnl": 22.315580755609638
  },
- "open": [
-  {
-   "symbol": "NOMO",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0001590376857265621,
-   "last_px": 0.0001582,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793054550.8515403,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.9x, m5 +1.2%; round-trip cost est 1.66%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "NOMO",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0001590376857265621,
-   "last_px": 0.0001582,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.000443,
+   "exit_px": 0.00044057515329658925,
+   "pnl": 17.536597099768187,
    "opened": 1793054550.8515403,
-   "closed": null,
-   "status": "open",
+   "closed": 1793056212.0836787,
+   "status": "closed",
    "reason_open": "volume spike 1.9x, m5 +1.2%; round-trip cost est 1.66%",
-   "reason_close": null
+   "reason_close": "take profit +178.6%"
   },
   {
    "symbol": "pumpcat",
@@ -170,12 +155,16 @@
   {
    "ts": 1793054550.4894753,
    "equity": 49.59898365584145
+  },
+  {
+   "ts": 1793056212.096109,
+   "equity": 67.13558075560964
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 219
+   "n": 226
   },
   {
    "check_name": "min_pair_age",
@@ -210,8 +199,8 @@
    "n": 2
   }
  ],
- "rej_total": 317,
- "recent_rejections": 35,
- "updated_ts": 1793056212,
+ "rej_total": 324,
+ "recent_rejections": 34,
+ "updated_ts": 1793056242,
  "updated_manila": "2026-10-27 07:10 (Manila, UTC+8)"
 }
