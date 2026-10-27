@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 65.18135978670772,
- "equity": 65.18135978670772,
- "trades_n": 15,
+ "cash": 55.181359786707716,
+ "equity": 65.0971839414804,
+ "trades_n": 16,
  "closed": {
   "n": 15,
   "pnl": 20.36135978670773
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "N64",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.514834756739216e-05,
+   "last_px": 7.474e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793064741.9220805,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "N64",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.514834756739216e-05,
+   "last_px": 7.474e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793064741.9220805,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
+   "reason_close": null
+  },
   {
    "symbol": "TRUMP2028",
    "chain": "solana",
@@ -327,10 +356,14 @@
   {
    "check_name": "min_buys",
    "n": 2
+  },
+  {
+   "check_name": "fdv_liq_ratio",
+   "n": 1
   }
  ],
- "rej_total": 409,
- "recent_rejections": 30,
- "updated_ts": 1793064691,
- "updated_manila": "2026-10-27 09:31 (Manila, UTC+8)"
+ "rej_total": 410,
+ "recent_rejections": 31,
+ "updated_ts": 1793064752,
+ "updated_manila": "2026-10-27 09:32 (Manila, UTC+8)"
 }
