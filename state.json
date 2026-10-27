@@ -1,29 +1,14 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 55.75730405071053,
- "equity": 66.26061568785136,
+ "cash": 66.17609642892104,
+ "equity": 66.17609642892104,
  "trades_n": 18,
  "closed": {
-  "n": 17,
-  "pnl": 20.937304050710548
+  "n": 18,
+  "pnl": 21.356096428921056
  },
- "open": [
-  {
-   "symbol": "XCAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 3.7589287420921904,
-   "last_px": 3.96,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793068270.939732,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.8x, m5 +4.0%; round-trip cost est 1.61%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "XCAT",
@@ -31,13 +16,13 @@
    "cost": 10.0,
    "entry_px": 3.7589287420921904,
    "last_px": 3.96,
-   "exit_px": null,
-   "pnl": null,
+   "exit_px": 3.9399540777142383,
+   "pnl": 0.4187923782105081,
    "opened": 1793068270.939732,
-   "closed": null,
-   "status": "open",
+   "closed": 1793068693.8168569,
+   "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +4.0%; round-trip cost est 1.61%",
-   "reason_close": null
+   "reason_close": "volume died (m5 < $200) (+5.3%)"
   },
   {
    "symbol": "NETWORK",
@@ -350,6 +335,10 @@
   {
    "ts": 1793067936.403965,
    "equity": 65.75730405071053
+  },
+  {
+   "ts": 1793068693.8190074,
+   "equity": 66.17609642892104
   }
  ],
  "rej": [
@@ -399,7 +388,7 @@
   }
  ],
  "rej_total": 423,
- "recent_rejections": 31,
- "updated_ts": 1793068682,
+ "recent_rejections": 30,
+ "updated_ts": 1793068712,
  "updated_manila": "2026-10-27 10:38 (Manila, UTC+8)"
 }
