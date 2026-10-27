@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 67.13558075560964,
- "equity": 67.13558075560964,
- "trades_n": 8,
+ "cash": 57.13558075560964,
+ "equity": 67.05460740856114,
+ "trades_n": 9,
  "closed": {
   "n": 8,
   "pnl": 22.315580755609638
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "\u2588\u2588\u2588WIF",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0007414910008142263,
+   "last_px": 0.0007377,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793059620.0160515,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +64.2%; round-trip cost est 1.63%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "\u2588\u2588\u2588WIF",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0007414910008142263,
+   "last_px": 0.0007377,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793059620.0160515,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +64.2%; round-trip cost est 1.63%",
+   "reason_close": null
+  },
   {
    "symbol": "NOMO",
    "chain": "solana",
@@ -205,6 +234,6 @@
  ],
  "rej_total": 351,
  "recent_rejections": 37,
- "updated_ts": 1793059412,
- "updated_manila": "2026-10-27 08:03 (Manila, UTC+8)"
+ "updated_ts": 1793059622,
+ "updated_manila": "2026-10-27 08:07 (Manila, UTC+8)"
 }
