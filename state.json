@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 53.01845810830039,
- "equity": 62.32331847362438,
+ "cash": 61.882007501103104,
+ "equity": 61.882007501103104,
  "trades_n": 24,
  "closed": {
-  "n": 23,
-  "pnl": 18.198458108300418
+  "n": 24,
+  "pnl": 17.062007501103125
  },
- "open": [
-  {
-   "symbol": "Particle",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.326800975333733e-05,
-   "last_px": 6.838e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793078997.6184752,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.2x, m5 +0.8%; round-trip cost est 1.69%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Particle",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.326800975333733e-05,
-   "last_px": 6.838e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 6.569e-05,
+   "exit_px": 6.533287156967954e-05,
+   "pnl": -1.1364506071972933,
    "opened": 1793078997.6184752,
-   "closed": null,
-   "status": "open",
+   "closed": 1793079148.976985,
+   "status": "closed",
    "reason_open": "volume spike 1.2x, m5 +0.8%; round-trip cost est 1.69%",
-   "reason_close": null
+   "reason_close": "stop loss -10.3%"
   },
   {
    "symbol": "CRAZYROLL",
@@ -402,12 +387,16 @@
   {
    "ts": 1793078143.0785909,
    "equity": 63.01845810830039
+  },
+  {
+   "ts": 1793079148.9826372,
+   "equity": 61.882007501103104
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 334
+   "n": 335
   },
   {
    "check_name": "min_pair_age",
@@ -450,8 +439,8 @@
    "n": 1
   }
  ],
- "rej_total": 485,
- "recent_rejections": 31,
- "updated_ts": 1793079122,
+ "rej_total": 486,
+ "recent_rejections": 30,
+ "updated_ts": 1793079152,
  "updated_manila": "2026-10-27 13:32 (Manila, UTC+8)"
 }
