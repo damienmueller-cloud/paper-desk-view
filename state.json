@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 66.17609642892104,
- "equity": 66.17609642892104,
- "trades_n": 18,
+ "cash": 56.17609642892104,
+ "equity": 66.09468788039311,
+ "trades_n": 19,
  "closed": {
   "n": 18,
   "pnl": 21.356096428921056
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "DMAGA2028",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00042710227764964324,
+   "last_px": 0.0004249,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793070093.0000567,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +59.0%; round-trip cost est 1.64%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "DMAGA2028",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00042710227764964324,
+   "last_px": 0.0004249,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793070093.0000567,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +59.0%; round-trip cost est 1.64%",
+   "reason_close": null
+  },
   {
    "symbol": "XCAT",
    "chain": "solana",
@@ -389,6 +418,6 @@
  ],
  "rej_total": 434,
  "recent_rejections": 30,
- "updated_ts": 1793070001,
- "updated_manila": "2026-10-27 11:00 (Manila, UTC+8)"
+ "updated_ts": 1793070122,
+ "updated_manila": "2026-10-27 11:02 (Manila, UTC+8)"
 }
