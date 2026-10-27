@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 55.181359786707716,
- "equity": 64.73897247214823,
+ "cash": 64.72674365258865,
+ "equity": 64.72674365258865,
  "trades_n": 16,
  "closed": {
-  "n": 15,
-  "pnl": 20.36135978670773
+  "n": 16,
+  "pnl": 19.906743652588673
  },
- "open": [
-  {
-   "symbol": "N64",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.514834756739216e-05,
-   "last_px": 7.204e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793064741.9220805,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "N64",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.514834756739216e-05,
-   "last_px": 7.204e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 7.256e-05,
+   "exit_px": 7.216431887612671e-05,
+   "pnl": -0.45461613411905866,
    "opened": 1793064741.9220805,
-   "closed": null,
-   "status": "open",
+   "closed": 1793067446.5934854,
+   "status": "closed",
    "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
-   "reason_close": null
+   "reason_close": "time stop 45m (-3.4%)"
   },
   {
    "symbol": "TRUMP2028",
@@ -314,6 +299,10 @@
   {
    "ts": 1793064528.8164127,
    "equity": 65.18135978670772
+  },
+  {
+   "ts": 1793067446.597192,
+   "equity": 64.72674365258865
   }
  ],
  "rej": [
@@ -363,7 +352,7 @@
   }
  ],
  "rej_total": 420,
- "recent_rejections": 34,
- "updated_ts": 1793067422,
+ "recent_rejections": 33,
+ "updated_ts": 1793067452,
  "updated_manila": "2026-10-27 10:17 (Manila, UTC+8)"
 }
