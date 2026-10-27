@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 63.01845810830039,
- "equity": 63.01845810830039,
- "trades_n": 23,
+ "cash": 53.01845810830039,
+ "equity": 62.93429862922989,
+ "trades_n": 24,
  "closed": {
   "n": 23,
   "pnl": 18.198458108300418
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "Particle",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.326800975333733e-05,
+   "last_px": 7.287e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793078997.6184752,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +0.8%; round-trip cost est 1.69%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "Particle",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.326800975333733e-05,
+   "last_px": 7.287e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793078997.6184752,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +0.8%; round-trip cost est 1.69%",
+   "reason_close": null
+  },
   {
    "symbol": "CRAZYROLL",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.5x, m5 +12.3%; round-trip cost est 1.69%",
    "reason_close": "stop loss -18.8%"
-  },
-  {
-   "symbol": "REMUS",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.001169931177652146,
-   "last_px": 0.00198,
-   "exit_px": 0.001969857445692199,
-   "pnl": 6.736506105124445,
-   "opened": 1793029448.8939106,
-   "closed": 1793049765.8735971,
-   "status": "closed",
-   "reason_open": "volume spike 1.5x, m5 +3.5%; round-trip cost est 1.62%",
-   "reason_close": "take profit +69.2%"
   }
  ],
  "curve": [
@@ -436,7 +451,7 @@
   }
  ],
  "rej_total": 484,
- "recent_rejections": 32,
- "updated_ts": 1793078691,
- "updated_manila": "2026-10-27 13:24 (Manila, UTC+8)"
+ "recent_rejections": 31,
+ "updated_ts": 1793079002,
+ "updated_manila": "2026-10-27 13:30 (Manila, UTC+8)"
 }
