@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 56.37420961264509,
- "equity": 65.68355305476871,
+ "cash": 65.18135978670772,
+ "equity": 65.18135978670772,
  "trades_n": 15,
  "closed": {
-  "n": 14,
-  "pnl": 21.554209612645106
+  "n": 15,
+  "pnl": 20.36135978670773
  },
- "open": [
-  {
-   "symbol": "TRUMP2028",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0008273220391837941,
-   "last_px": 0.0007725,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793064346.5926702,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +7.6%; round-trip cost est 1.63%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "TRUMP2028",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0008273220391837941,
-   "last_px": 0.0007725,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0007368,
+   "exit_px": 0.0007330265059374108,
+   "pnl": -1.192849825937376,
    "opened": 1793064346.5926702,
-   "closed": null,
-   "status": "open",
+   "closed": 1793064528.81385,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +7.6%; round-trip cost est 1.63%",
-   "reason_close": null
+   "reason_close": "stop loss -10.9%"
   },
   {
    "symbol": "HACHI",
@@ -296,6 +281,10 @@
   {
    "ts": 1793064285.1953292,
    "equity": 66.37420961264509
+  },
+  {
+   "ts": 1793064528.8164127,
+   "equity": 65.18135978670772
   }
  ],
  "rej": [
@@ -341,7 +330,7 @@
   }
  ],
  "rej_total": 406,
- "recent_rejections": 31,
- "updated_ts": 1793064512,
- "updated_manila": "2026-10-27 09:28 (Manila, UTC+8)"
+ "recent_rejections": 30,
+ "updated_ts": 1793064542,
+ "updated_manila": "2026-10-27 09:29 (Manila, UTC+8)"
 }
