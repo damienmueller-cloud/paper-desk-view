@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 64.26722587543985,
- "equity": 64.26722587543985,
- "trades_n": 12,
+ "cash": 54.26722587543985,
+ "equity": 64.18305230102305,
+ "trades_n": 13,
  "closed": {
   "n": 12,
   "pnl": 19.447225875439862
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "Wifoween",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 6.909544102469534e-05,
+   "last_px": 6.872e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793062550.2311966,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +23.0%; round-trip cost est 1.69%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "Wifoween",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 6.909544102469534e-05,
+   "last_px": 6.872e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793062550.2311966,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +23.0%; round-trip cost est 1.69%",
+   "reason_close": null
+  },
   {
    "symbol": "ELON2028",
    "chain": "solana",
@@ -276,7 +305,7 @@
   }
  ],
  "rej_total": 386,
- "recent_rejections": 34,
- "updated_ts": 1793062532,
- "updated_manila": "2026-10-27 08:55 (Manila, UTC+8)"
+ "recent_rejections": 33,
+ "updated_ts": 1793062562,
+ "updated_manila": "2026-10-27 08:56 (Manila, UTC+8)"
 }
