@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 56.17609642892104,
- "equity": 66.09468788039311,
+ "cash": 64.64547691045146,
+ "equity": 64.64547691045146,
  "trades_n": 19,
  "closed": {
-  "n": 18,
-  "pnl": 21.356096428921056
+  "n": 19,
+  "pnl": 19.825476910451485
  },
- "open": [
-  {
-   "symbol": "DMAGA2028",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00042710227764964324,
-   "last_px": 0.0004249,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793070093.0000567,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +59.0%; round-trip cost est 1.64%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "DMAGA2028",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00042710227764964324,
-   "last_px": 0.0004249,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0003658,
+   "exit_px": 0.0003639093503120271,
+   "pnl": -1.5306195184695728,
    "opened": 1793070093.0000567,
-   "closed": null,
-   "status": "open",
+   "closed": 1793070123.0609593,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +59.0%; round-trip cost est 1.64%",
-   "reason_close": null
+   "reason_close": "stop loss -14.4%"
   },
   {
    "symbol": "XCAT",
@@ -368,6 +353,10 @@
   {
    "ts": 1793068693.8190074,
    "equity": 66.17609642892104
+  },
+  {
+   "ts": 1793070123.064786,
+   "equity": 64.64547691045146
   }
  ],
  "rej": [
@@ -417,7 +406,7 @@
   }
  ],
  "rej_total": 434,
- "recent_rejections": 30,
- "updated_ts": 1793070122,
+ "recent_rejections": 29,
+ "updated_ts": 1793070152,
  "updated_manila": "2026-10-27 11:02 (Manila, UTC+8)"
 }
