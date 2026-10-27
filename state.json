@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 55.57173028533418,
- "equity": 65.74754837568187,
+ "cash": 64.26722587543985,
+ "equity": 64.26722587543985,
  "trades_n": 12,
  "closed": {
-  "n": 11,
-  "pnl": 20.751730285334194
+  "n": 12,
+  "pnl": 19.447225875439862
  },
- "open": [
-  {
-   "symbol": "ELON2028",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00055474792786976,
-   "last_px": 0.0005662,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793062276.413186,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 3.6x, m5 +130.0%; round-trip cost est 1.63%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "ELON2028",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00055474792786976,
-   "last_px": 0.0005662,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0004878,
+   "exit_px": 0.0004852881775126538,
+   "pnl": -1.3045044098943333,
    "opened": 1793062276.413186,
-   "closed": null,
-   "status": "open",
+   "closed": 1793062397.756336,
+   "status": "closed",
    "reason_open": "volume spike 3.6x, m5 +130.0%; round-trip cost est 1.63%",
-   "reason_close": null
+   "reason_close": "stop loss -12.1%"
   },
   {
    "symbol": "AP2028",
@@ -242,12 +227,16 @@
   {
    "ts": 1793061778.4327586,
    "equity": 65.57173028533418
+  },
+  {
+   "ts": 1793062397.7601213,
+   "equity": 64.26722587543985
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 260
+   "n": 263
   },
   {
    "check_name": "min_pair_age",
@@ -286,8 +275,8 @@
    "n": 2
   }
  ],
- "rej_total": 382,
+ "rej_total": 385,
  "recent_rejections": 33,
- "updated_ts": 1793062381,
+ "updated_ts": 1793062411,
  "updated_manila": "2026-10-27 08:53 (Manila, UTC+8)"
 }
