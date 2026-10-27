@@ -400,7 +400,7 @@
   },
   {
    "check_name": "min_pair_age",
-   "n": 95
+   "n": 96
   },
   {
    "check_name": "max_pair_age",
@@ -447,8 +447,8 @@
    "n": 1
   }
  ],
- "rej_total": 714,
+ "rej_total": 715,
  "recent_rejections": 40,
- "updated_ts": 1793140232,
- "updated_manila": "2026-10-28 06:30 (Manila, UTC+8)"
+ "updated_ts": 1793140261,
+ "updated_manila": "2026-10-28 06:31 (Manila, UTC+8)"
 }
