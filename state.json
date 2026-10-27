@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 63.47821408060574,
- "equity": 63.47821408060574,
- "trades_n": 20,
+ "cash": 53.47821408060574,
+ "equity": 63.39476334520403,
+ "trades_n": 21,
  "closed": {
   "n": 20,
   "pnl": 18.65821408060576
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "CAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00010104170042063415,
+   "last_px": 0.0001005,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793076966.9054294,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.6x, m5 +25.5%; round-trip cost est 1.68%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "CAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00010104170042063415,
+   "last_px": 0.0001005,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793076966.9054294,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.6x, m5 +25.5%; round-trip cost est 1.68%",
+   "reason_close": null
+  },
   {
    "symbol": "MIYA",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.5x, m5 +15.1%; round-trip cost est 1.66%",
    "reason_close": "stop loss -8.1%"
-  },
-  {
-   "symbol": "CATTLEAXE",
-   "chain": "solana",
-   "cost": 11.205,
-   "entry_px": 0.0008029971298184859,
-   "last_px": 0.0009434,
-   "exit_px": 0.0009385527264839736,
-   "pnl": 1.8130777248407792,
-   "opened": 1793022014.2806985,
-   "closed": 1793022339.1226645,
-   "status": "closed",
-   "reason_open": "volume spike 3.3x, m5 +2.8%; round-trip cost est 1.63%",
-   "reason_close": "take profit +17.5%"
   }
  ],
  "curve": [
@@ -424,7 +439,7 @@
   }
  ],
  "rej_total": 476,
- "recent_rejections": 38,
- "updated_ts": 1793076781,
- "updated_manila": "2026-10-27 12:53 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793076992,
+ "updated_manila": "2026-10-27 12:56 (Manila, UTC+8)"
 }
