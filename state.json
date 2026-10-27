@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 54.645476910451464,
- "equity": 64.49018682357872,
+ "cash": 63.47821408060574,
+ "equity": 63.47821408060574,
  "trades_n": 20,
  "closed": {
-  "n": 19,
-  "pnl": 19.825476910451485
+  "n": 20,
+  "pnl": 18.65821408060576
  },
- "open": [
-  {
-   "symbol": "MIYA",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0001912027897835802,
-   "last_px": 0.0001888,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793074390.1241639,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.2x, m5 +14.3%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "MIYA",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0001912027897835802,
-   "last_px": 0.0001888,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001708,
+   "exit_px": 0.00016990228341580638,
+   "pnl": -1.1672628298457255,
    "opened": 1793074390.1241639,
-   "closed": null,
-   "status": "open",
+   "closed": 1793074450.5953827,
+   "status": "closed",
    "reason_open": "volume spike 1.2x, m5 +14.3%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "stop loss -10.7%"
   },
   {
    "symbol": "DMAGA2028",
@@ -386,6 +371,10 @@
   {
    "ts": 1793070123.064786,
    "equity": 64.64547691045146
+  },
+  {
+   "ts": 1793074450.602182,
+   "equity": 63.47821408060574
   }
  ],
  "rej": [
@@ -435,7 +424,7 @@
   }
  ],
  "rej_total": 462,
- "recent_rejections": 37,
- "updated_ts": 1793074441,
- "updated_manila": "2026-10-27 12:14 (Manila, UTC+8)"
+ "recent_rejections": 36,
+ "updated_ts": 1793074579,
+ "updated_manila": "2026-10-27 12:16 (Manila, UTC+8)"
 }
