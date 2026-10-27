@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 53.91898516497548,
- "equity": 63.83648295694057,
+ "cash": 63.01845810830039,
+ "equity": 63.01845810830039,
  "trades_n": 23,
  "closed": {
-  "n": 22,
-  "pnl": 19.098985164975502
+  "n": 23,
+  "pnl": 18.198458108300418
  },
- "open": [
-  {
-   "symbol": "CRAZYROLL",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00017059837425633132,
-   "last_px": 0.0001697,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793078082.649512,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +5.8%; round-trip cost est 1.66%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "CRAZYROLL",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00017059837425633132,
-   "last_px": 0.0001697,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.000157,
+   "exit_px": 0.0001561711504343225,
+   "pnl": -0.9005270566750845,
    "opened": 1793078082.649512,
-   "closed": null,
-   "status": "open",
+   "closed": 1793078143.0745635,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +5.8%; round-trip cost est 1.66%",
-   "reason_close": null
+   "reason_close": "stop loss -8.0%"
   },
   {
    "symbol": "TGC",
@@ -398,6 +383,10 @@
   {
    "ts": 1793077088.464256,
    "equity": 63.91898516497548
+  },
+  {
+   "ts": 1793078143.0785909,
+   "equity": 63.01845810830039
   }
  ],
  "rej": [
@@ -447,7 +436,7 @@
   }
  ],
  "rej_total": 482,
- "recent_rejections": 33,
- "updated_ts": 1793078101,
- "updated_manila": "2026-10-27 13:15 (Manila, UTC+8)"
+ "recent_rejections": 32,
+ "updated_ts": 1793078162,
+ "updated_manila": "2026-10-27 13:16 (Manila, UTC+8)"
 }
