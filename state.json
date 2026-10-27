@@ -396,7 +396,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 480
+   "n": 482
   },
   {
    "check_name": "min_pair_age",
@@ -440,15 +440,15 @@
   },
   {
    "check_name": "risk:daily_loss_limit",
-   "n": 1
+   "n": 2
   },
   {
    "check_name": "fdv_liq_ratio",
    "n": 1
   }
  ],
- "rej_total": 685,
+ "rej_total": 688,
  "recent_rejections": 40,
- "updated_ts": 1793139152,
- "updated_manila": "2026-10-28 06:12 (Manila, UTC+8)"
+ "updated_ts": 1793139241,
+ "updated_manila": "2026-10-28 06:14 (Manila, UTC+8)"
 }
