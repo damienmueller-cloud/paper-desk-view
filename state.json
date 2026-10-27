@@ -435,12 +435,16 @@
    "n": 2
   },
   {
+   "check_name": "risk:daily_loss_limit",
+   "n": 1
+  },
+  {
    "check_name": "fdv_liq_ratio",
    "n": 1
   }
  ],
- "rej_total": 498,
+ "rej_total": 499,
  "recent_rejections": 32,
- "updated_ts": 1793082776,
- "updated_manila": "2026-10-27 14:32 (Manila, UTC+8)"
+ "updated_ts": 1793083201,
+ "updated_manila": "2026-10-27 14:40 (Manila, UTC+8)"
 }
