@@ -420,7 +420,7 @@
   },
   {
    "check_name": "min_volume",
-   "n": 9
+   "n": 10
   },
   {
    "check_name": "risk:max_position_size",
@@ -447,8 +447,8 @@
    "n": 1
   }
  ],
- "rej_total": 676,
+ "rej_total": 677,
  "recent_rejections": 40,
- "updated_ts": 1793138582,
- "updated_manila": "2026-10-28 06:03 (Manila, UTC+8)"
+ "updated_ts": 1793138851,
+ "updated_manila": "2026-10-28 06:07 (Manila, UTC+8)"
 }
