@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 55.111775030901015,
- "equity": 65.02862395932353,
+ "cash": 63.91898516497548,
+ "equity": 63.91898516497548,
  "trades_n": 22,
  "closed": {
-  "n": 21,
-  "pnl": 20.291775030901036
+  "n": 22,
+  "pnl": 19.098985164975502
  },
- "open": [
-  {
-   "symbol": "TGC",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.000122251736287451,
-   "last_px": 0.0001216,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793077028.0482097,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "TGC",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.000122251736287451,
-   "last_px": 0.0001216,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001089,
+   "exit_px": 0.00010831860986560863,
+   "pnl": -1.1927898659255334,
    "opened": 1793077028.0482097,
-   "closed": null,
-   "status": "open",
+   "closed": 1793077088.4623866,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
-   "reason_close": null
+   "reason_close": "stop loss -10.9%"
   },
   {
    "symbol": "CAT",
@@ -394,6 +379,10 @@
   {
    "ts": 1793077027.6677241,
    "equity": 65.11177503090101
+  },
+  {
+   "ts": 1793077088.464256,
+   "equity": 63.91898516497548
   }
  ],
  "rej": [
@@ -443,7 +432,7 @@
   }
  ],
  "rej_total": 477,
- "recent_rejections": 35,
- "updated_ts": 1793077052,
- "updated_manila": "2026-10-27 12:57 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1793077111,
+ "updated_manila": "2026-10-27 12:58 (Manila, UTC+8)"
 }
