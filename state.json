@@ -1,43 +1,57 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 53.47821408060574,
- "equity": 63.40463055840263,
- "trades_n": 21,
+ "cash": 55.111775030901015,
+ "equity": 65.02862395932353,
+ "trades_n": 22,
  "closed": {
-  "n": 20,
-  "pnl": 18.65821408060576
+  "n": 21,
+  "pnl": 20.291775030901036
  },
  "open": [
   {
-   "symbol": "CAT",
+   "symbol": "TGC",
    "chain": "solana",
    "cost": 10.0,
-   "entry_px": 0.00010104170042063415,
-   "last_px": 0.0001006,
+   "entry_px": 0.000122251736287451,
+   "last_px": 0.0001216,
    "exit_px": null,
    "pnl": null,
-   "opened": 1793076966.9054294,
+   "opened": 1793077028.0482097,
    "closed": null,
    "status": "open",
-   "reason_open": "volume spike 1.6x, m5 +25.5%; round-trip cost est 1.68%",
+   "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
    "reason_close": null
   }
  ],
  "trades": [
   {
+   "symbol": "TGC",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.000122251736287451,
+   "last_px": 0.0001216,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793077028.0482097,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
+   "reason_close": null
+  },
+  {
    "symbol": "CAT",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00010104170042063415,
-   "last_px": 0.0001006,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001189,
+   "exit_px": 0.00011825594942952461,
+   "pnl": 1.6335609502952781,
    "opened": 1793076966.9054294,
-   "closed": null,
-   "status": "open",
+   "closed": 1793077027.6646874,
+   "status": "closed",
    "reason_open": "volume spike 1.6x, m5 +25.5%; round-trip cost est 1.68%",
-   "reason_close": null
+   "reason_close": "take profit +17.7%"
   },
   {
    "symbol": "MIYA",
@@ -290,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.2x, m5 +6.1%; round-trip cost est 1.68%",
    "reason_close": "time stop 45m (+2.8%)"
-  },
-  {
-   "symbol": "Chop",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00014033894920011195,
-   "last_px": 0.000129,
-   "exit_px": 0.00012831886290115145,
-   "pnl": -0.9112826253505304,
-   "opened": 1793026596.1621492,
-   "closed": 1793026717.7441282,
-   "status": "closed",
-   "reason_open": "volume spike 1.5x, m5 +15.1%; round-trip cost est 1.66%",
-   "reason_close": "stop loss -8.1%"
   }
  ],
  "curve": [
@@ -390,6 +390,10 @@
   {
    "ts": 1793074450.602182,
    "equity": 63.47821408060574
+  },
+  {
+   "ts": 1793077027.6677241,
+   "equity": 65.11177503090101
   }
  ],
  "rej": [
@@ -439,7 +443,7 @@
   }
  ],
  "rej_total": 477,
- "recent_rejections": 37,
- "updated_ts": 1793077022,
+ "recent_rejections": 35,
+ "updated_ts": 1793077052,
  "updated_manila": "2026-10-27 12:57 (Manila, UTC+8)"
 }
