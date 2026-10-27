@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 65.93651312890613,
- "equity": 65.93651312890613,
- "trades_n": 9,
+ "cash": 55.93651312890613,
+ "equity": 65.85607289809158,
+ "trades_n": 10,
  "closed": {
   "n": 9,
   "pnl": 21.11651312890613
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "CHICO",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.001957905436522694,
+   "last_px": 0.001948,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793060531.8781676,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.5x, m5 +85.2%; round-trip cost est 1.62%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "CHICO",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.001957905436522694,
+   "last_px": 0.001948,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793060531.8781676,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.5x, m5 +85.2%; round-trip cost est 1.62%",
+   "reason_close": null
+  },
   {
    "symbol": "\u2588\u2588\u2588WIF",
    "chain": "solana",
@@ -222,7 +251,7 @@
   }
  ],
  "rej_total": 358,
- "recent_rejections": 38,
- "updated_ts": 1793060492,
- "updated_manila": "2026-10-27 08:21 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793060551,
+ "updated_manila": "2026-10-27 08:22 (Manila, UTC+8)"
 }
