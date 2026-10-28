@@ -412,7 +412,7 @@
   },
   {
    "check_name": "risk:desk_halted",
-   "n": 28
+   "n": 29
   },
   {
    "check_name": "risk:max_open_positions",
@@ -451,8 +451,8 @@
    "n": 1
   }
  ],
- "rej_total": 888,
+ "rej_total": 889,
  "recent_rejections": 40,
- "updated_ts": 1793161381,
- "updated_manila": "2026-10-28 12:23 (Manila, UTC+8)"
+ "updated_ts": 1793161441,
+ "updated_manila": "2026-10-28 12:24 (Manila, UTC+8)"
 }
