@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 50.4199413103575,
- "equity": 60.83467106860117,
+ "cash": 59.21876771133154,
+ "equity": 59.21876771133154,
  "trades_n": 28,
  "closed": {
-  "n": 27,
-  "pnl": 15.599941310357522
+  "n": 28,
+  "pnl": 14.39876771133156
  },
- "open": [
-  {
-   "symbol": "Nipple",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0002448768291833321,
-   "last_px": 0.0002558,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793196010.091379,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 2.5x, m5 +80.8%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Nipple",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0002448768291833321,
-   "last_px": 0.0002558,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0002179,
+   "exit_px": 0.00021676148904135802,
+   "pnl": -1.201173599025962,
    "opened": 1793196010.091379,
-   "closed": null,
-   "status": "open",
+   "closed": 1793196071.0231187,
+   "status": "closed",
    "reason_open": "volume spike 2.5x, m5 +80.8%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "stop loss -11.0%"
   },
   {
    "symbol": "ENVAR",
@@ -418,6 +403,10 @@
   {
    "ts": 1793187075.168448,
    "equity": 60.4199413103575
+  },
+  {
+   "ts": 1793196071.0264595,
+   "equity": 59.21876771133154
   }
  ],
  "rej": [
@@ -479,7 +468,7 @@
   }
  ],
  "rej_total": 1094,
- "recent_rejections": 36,
- "updated_ts": 1793196062,
+ "recent_rejections": 35,
+ "updated_ts": 1793196092,
  "updated_manila": "2026-10-28 22:01 (Manila, UTC+8)"
 }
