@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 49.56472643158476,
- "equity": 59.16643673373605,
+ "cash": 61.33286600469517,
+ "equity": 61.33286600469517,
  "trades_n": 31,
  "closed": {
-  "n": 30,
-  "pnl": 14.744726431584786
+  "n": 31,
+  "pnl": 16.512866004695198
  },
- "open": [
-  {
-   "symbol": "CATCULUS",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00016727926061673972,
-   "last_px": 0.0001611,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793228785.0410411,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +170.0%; round-trip cost est 1.66%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "CATCULUS",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00016727926061673972,
-   "last_px": 0.0001611,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001991,
+   "exit_px": 0.00019804304454230337,
+   "pnl": 1.7681395731104104,
    "opened": 1793228785.0410411,
-   "closed": null,
-   "status": "open",
+   "closed": 1793228875.804222,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +170.0%; round-trip cost est 1.66%",
-   "reason_close": null
+   "reason_close": "take profit +19.0%"
   },
   {
    "symbol": "CATBOT",
@@ -430,6 +415,10 @@
   {
    "ts": 1793226573.9173353,
    "equity": 59.56472643158476
+  },
+  {
+   "ts": 1793228875.8077781,
+   "equity": 61.33286600469517
   }
  ],
  "rej": [
@@ -491,7 +480,7 @@
   }
  ],
  "rej_total": 1158,
- "recent_rejections": 35,
- "updated_ts": 1793228851,
- "updated_manila": "2026-10-29 07:07 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1793228882,
+ "updated_manila": "2026-10-29 07:08 (Manila, UTC+8)"
 }
