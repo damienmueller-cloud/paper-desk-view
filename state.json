@@ -428,7 +428,7 @@
   },
   {
    "check_name": "min_buys",
-   "n": 6
+   "n": 7
   },
   {
    "check_name": "holder_concentration",
@@ -451,8 +451,8 @@
    "n": 1
   }
  ],
- "rej_total": 913,
+ "rej_total": 914,
  "recent_rejections": 40,
- "updated_ts": 1793165012,
- "updated_manila": "2026-10-28 13:23 (Manila, UTC+8)"
+ "updated_ts": 1793165491,
+ "updated_manila": "2026-10-28 13:31 (Manila, UTC+8)"
 }
