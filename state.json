@@ -400,7 +400,7 @@
   },
   {
    "check_name": "min_pair_age",
-   "n": 133
+   "n": 134
   },
   {
    "check_name": "price_present",
@@ -451,8 +451,8 @@
    "n": 1
   }
  ],
- "rej_total": 947,
+ "rej_total": 948,
  "recent_rejections": 40,
- "updated_ts": 1793170547,
- "updated_manila": "2026-10-28 14:55 (Manila, UTC+8)"
+ "updated_ts": 1793170682,
+ "updated_manila": "2026-10-28 14:58 (Manila, UTC+8)"
 }
