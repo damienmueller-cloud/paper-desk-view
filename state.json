@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 61.04992545856751,
- "equity": 61.04992545856751,
- "trades_n": 25,
+ "cash": 51.04992545856751,
+ "equity": 60.96952304994582,
+ "trades_n": 26,
  "closed": {
   "n": 25,
   "pnl": 16.22992545856753
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "Something",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0017598969957383437,
+   "last_px": 0.001751,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793184214.5251331,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +8.3%; round-trip cost est 1.62%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "Something",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0017598969957383437,
+   "last_px": 0.001751,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793184214.5251331,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +8.3%; round-trip cost est 1.62%",
+   "reason_close": null
+  },
   {
    "symbol": "Rapport",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 2.4x, m5 +6.5%; round-trip cost est 1.64%",
    "reason_close": "volume died (m5 < $200) (-0.7%)"
-  },
-  {
-   "symbol": "KANE",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.006191675837919e-05,
-   "last_px": 6.469e-05,
-   "exit_px": 6.433636432689897e-05,
-   "pnl": -0.8722272916451157,
-   "opened": 1793053442.4831142,
-   "closed": 1793053533.5039544,
-   "status": "closed",
-   "reason_open": "volume spike 2.3x, m5 +67.4%; round-trip cost est 1.70%",
-   "reason_close": "stop loss -7.7%"
   }
  ],
  "curve": [
@@ -456,7 +471,7 @@
   }
  ],
  "rej_total": 1057,
- "recent_rejections": 38,
- "updated_ts": 1793184121,
- "updated_manila": "2026-10-28 18:42 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793184241,
+ "updated_manila": "2026-10-28 18:44 (Manila, UTC+8)"
 }
