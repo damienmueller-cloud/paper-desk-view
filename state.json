@@ -420,7 +420,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 799
+   "n": 800
   },
   {
    "check_name": "min_pair_age",
@@ -432,7 +432,7 @@
   },
   {
    "check_name": "price_present",
-   "n": 42
+   "n": 43
   },
   {
    "check_name": "risk:desk_halted",
@@ -440,7 +440,7 @@
   },
   {
    "check_name": "min_volume",
-   "n": 19
+   "n": 20
   },
   {
    "check_name": "risk:max_open_positions",
@@ -475,8 +475,8 @@
    "n": 1
   }
  ],
- "rej_total": 1155,
+ "rej_total": 1158,
  "recent_rejections": 36,
- "updated_ts": 1793227112,
- "updated_manila": "2026-10-29 06:38 (Manila, UTC+8)"
+ "updated_ts": 1793228581,
+ "updated_manila": "2026-10-29 07:03 (Manila, UTC+8)"
 }
