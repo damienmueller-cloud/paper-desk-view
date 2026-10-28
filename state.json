@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 59.21876771133154,
- "equity": 59.21876771133154,
- "trades_n": 28,
+ "cash": 49.21876771133154,
+ "equity": 59.13757494975427,
+ "trades_n": 29,
  "closed": {
   "n": 28,
   "pnl": 14.39876771133156
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "jeff",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0007592987562885255,
+   "last_px": 0.0007554,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793225235.6732621,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.8x, m5 +55.3%; round-trip cost est 1.63%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "jeff",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0007592987562885255,
+   "last_px": 0.0007554,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793225235.6732621,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.8x, m5 +55.3%; round-trip cost est 1.63%",
+   "reason_close": null
+  },
   {
    "symbol": "Nipple",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 2.5x, m5 +85.2%; round-trip cost est 1.62%",
    "reason_close": "take profit +15.7%"
-  },
-  {
-   "symbol": "\u2588\u2588\u2588WIF",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0007414910008142263,
-   "last_px": 0.0006599,
-   "exit_px": 0.0006565143930863747,
-   "pnl": -1.1990676267035045,
-   "opened": 1793059620.0160515,
-   "closed": 1793059863.0755687,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +64.2%; round-trip cost est 1.63%",
-   "reason_close": "stop loss -11.0%"
   }
  ],
  "curve": [
@@ -412,7 +427,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 755
+   "n": 789
   },
   {
    "check_name": "min_pair_age",
@@ -420,7 +435,7 @@
   },
   {
    "check_name": "max_pair_age",
-   "n": 50
+   "n": 54
   },
   {
    "check_name": "price_present",
@@ -432,11 +447,11 @@
   },
   {
    "check_name": "min_volume",
-   "n": 18
+   "n": 19
   },
   {
    "check_name": "risk:max_open_positions",
-   "n": 15
+   "n": 16
   },
   {
    "check_name": "min_buys",
@@ -467,8 +482,8 @@
    "n": 1
   }
  ],
- "rej_total": 1102,
- "recent_rejections": 35,
- "updated_ts": 1793196812,
- "updated_manila": "2026-10-28 22:13 (Manila, UTC+8)"
+ "rej_total": 1142,
+ "recent_rejections": 39,
+ "updated_ts": 1793225262,
+ "updated_manila": "2026-10-29 06:07 (Manila, UTC+8)"
 }
