@@ -404,7 +404,7 @@
   },
   {
    "check_name": "price_present",
-   "n": 39
+   "n": 40
   },
   {
    "check_name": "max_pair_age",
@@ -451,8 +451,8 @@
    "n": 1
   }
  ],
- "rej_total": 908,
+ "rej_total": 909,
  "recent_rejections": 40,
- "updated_ts": 1793163871,
- "updated_manila": "2026-10-28 13:04 (Manila, UTC+8)"
+ "updated_ts": 1793164141,
+ "updated_manila": "2026-10-28 13:09 (Manila, UTC+8)"
 }
