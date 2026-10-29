@@ -468,7 +468,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 933
+   "n": 934
   },
   {
    "check_name": "min_pair_age",
@@ -523,8 +523,8 @@
    "n": 1
   }
  ],
- "rej_total": 1349,
+ "rej_total": 1350,
  "recent_rejections": 36,
- "updated_ts": 1793262481,
- "updated_manila": "2026-10-29 16:28 (Manila, UTC+8)"
+ "updated_ts": 1793262722,
+ "updated_manila": "2026-10-29 16:32 (Manila, UTC+8)"
 }
