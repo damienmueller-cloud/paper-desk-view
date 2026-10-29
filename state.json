@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 62.77202133865582,
- "equity": 62.77202133865582,
- "trades_n": 37,
+ "cash": 52.77202133865582,
+ "equity": 62.689365381166525,
+ "trades_n": 38,
  "closed": {
   "n": 37,
   "pnl": 17.952021338655847
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "PODCAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0001548176601939584,
+   "last_px": 0.000154,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793242792.4749281,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.7x, m5 +78.1%; round-trip cost est 1.66%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "PODCAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0001548176601939584,
+   "last_px": 0.000154,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793242792.4749281,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.7x, m5 +78.1%; round-trip cost est 1.66%",
+   "reason_close": null
+  },
   {
    "symbol": "0",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +59.0%; round-trip cost est 1.64%",
    "reason_close": "stop loss -14.4%"
-  },
-  {
-   "symbol": "XCAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 3.7589287420921904,
-   "last_px": 3.96,
-   "exit_px": 3.9399540777142383,
-   "pnl": 0.4187923782105081,
-   "opened": 1793068270.939732,
-   "closed": 1793068693.8168569,
-   "status": "closed",
-   "reason_open": "volume spike 1.8x, m5 +4.0%; round-trip cost est 1.61%",
-   "reason_close": "volume died (m5 < $200) (+5.3%)"
   }
  ],
  "curve": [
@@ -476,7 +491,7 @@
   },
   {
    "check_name": "min_buys",
-   "n": 12
+   "n": 13
   },
   {
    "check_name": "risk:max_position_size",
@@ -503,8 +518,8 @@
    "n": 1
   }
  ],
- "rej_total": 1259,
+ "rej_total": 1260,
  "recent_rejections": 35,
- "updated_ts": 1793242728,
- "updated_manila": "2026-10-29 10:58 (Manila, UTC+8)"
+ "updated_ts": 1793242802,
+ "updated_manila": "2026-10-29 11:00 (Manila, UTC+8)"
 }
