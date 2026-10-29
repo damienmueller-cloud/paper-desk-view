@@ -480,7 +480,7 @@
   },
   {
    "check_name": "max_pair_age",
-   "n": 60
+   "n": 61
   },
   {
    "check_name": "price_present",
@@ -500,7 +500,7 @@
   },
   {
    "check_name": "min_buys",
-   "n": 16
+   "n": 17
   },
   {
    "check_name": "risk:max_position_size",
@@ -527,8 +527,8 @@
    "n": 1
   }
  ],
- "rej_total": 1382,
+ "rej_total": 1384,
  "recent_rejections": 36,
- "updated_ts": 1793270102,
- "updated_manila": "2026-10-29 18:35 (Manila, UTC+8)"
+ "updated_ts": 1793270222,
+ "updated_manila": "2026-10-29 18:37 (Manila, UTC+8)"
 }
