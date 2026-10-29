@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 51.33249788203317,
- "equity": 61.92371292180173,
+ "cash": 62.77202133865582,
+ "equity": 62.77202133865582,
  "trades_n": 37,
  "closed": {
-  "n": 36,
-  "pnl": 16.512497882033195
+  "n": 37,
+  "pnl": 17.952021338655847
  },
- "open": [
-  {
-   "symbol": "0",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00022507587571860788,
-   "last_px": 0.0002391,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793240039.996435,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "0",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00022507587571860788,
-   "last_px": 0.0002391,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0002604,
+   "exit_px": 0.0002590279122022938,
+   "pnl": 1.4395234566226485,
    "opened": 1793240039.996435,
-   "closed": null,
-   "status": "open",
+   "closed": 1793240313.0933015,
+   "status": "closed",
    "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "take profit +15.7%"
   },
   {
    "symbol": "BIO",
@@ -454,6 +439,10 @@
   {
    "ts": 1793239705.738228,
    "equity": 61.33249788203317
+  },
+  {
+   "ts": 1793240313.0971375,
+   "equity": 62.77202133865582
   }
  ],
  "rej": [
@@ -516,6 +505,6 @@
  ],
  "rej_total": 1243,
  "recent_rejections": 32,
- "updated_ts": 1793240312,
- "updated_manila": "2026-10-29 10:18 (Manila, UTC+8)"
+ "updated_ts": 1793240341,
+ "updated_manila": "2026-10-29 10:19 (Manila, UTC+8)"
 }
