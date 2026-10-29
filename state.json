@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 52.22926100094176,
- "equity": 52.22926100094176,
- "trades_n": 46,
+ "cash": 42.22926100094176,
+ "equity": 52.14710586272148,
+ "trades_n": 47,
  "closed": {
   "n": 46,
   "pnl": 7.40926100094179
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "HYPERCAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00021643220174496775,
+   "last_px": 0.0002153,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793311933.9691522,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "HYPERCAT",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00021643220174496775,
+   "last_px": 0.0002153,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793311933.9691522,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
+   "reason_close": null
+  },
   {
    "symbol": "$CHIMP",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 2.5x, m5 +80.8%; round-trip cost est 1.65%",
    "reason_close": "stop loss -11.0%"
-  },
-  {
-   "symbol": "ENVAR",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00013722663803272423,
-   "last_px": 0.0001258,
-   "exit_px": 0.00012513220303990037,
-   "pnl": -0.9359773150000947,
-   "opened": 1793186953.9460385,
-   "closed": 1793187075.1667368,
-   "status": "closed",
-   "reason_open": "volume spike 1.8x, m5 +0.7%; round-trip cost est 1.66%",
-   "reason_close": "stop loss -8.3%"
   }
  ],
  "curve": [
@@ -540,7 +555,7 @@
   }
  ],
  "rej_total": 1492,
- "recent_rejections": 38,
- "updated_ts": 1793311652,
- "updated_manila": "2026-10-30 06:07 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793311951,
+ "updated_manila": "2026-10-30 06:12 (Manila, UTC+8)"
 }
