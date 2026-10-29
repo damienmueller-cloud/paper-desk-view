@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 51.57649769503911,
- "equity": 51.57649769503911,
- "trades_n": 45,
+ "cash": 41.57649769503911,
+ "equity": 51.49300148301805,
+ "trades_n": 46,
  "closed": {
   "n": 45,
   "pnl": 6.75649769503914
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "$CHIMP",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00010616967658261495,
+   "last_px": 0.0001056,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793308513.9849536,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +9.4%; round-trip cost est 1.68%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "$CHIMP",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00010616967658261495,
+   "last_px": 0.0001056,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793308513.9849536,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +9.4%; round-trip cost est 1.68%",
+   "reason_close": null
+  },
   {
    "symbol": "OREN",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +0.7%; round-trip cost est 1.66%",
    "reason_close": "stop loss -8.3%"
-  },
-  {
-   "symbol": "Something",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0017598969957383437,
-   "last_px": 0.001834,
-   "exit_px": 0.001824680300916166,
-   "pnl": 0.30599316679008837,
-   "opened": 1793184214.5251331,
-   "closed": 1793186923.423025,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +8.3%; round-trip cost est 1.62%",
-   "reason_close": "time stop 45m (+4.2%)"
   }
  ],
  "curve": [
@@ -536,7 +551,7 @@
   }
  ],
  "rej_total": 1476,
- "recent_rejections": 36,
- "updated_ts": 1793308442,
- "updated_manila": "2026-10-30 05:14 (Manila, UTC+8)"
+ "recent_rejections": 35,
+ "updated_ts": 1793308531,
+ "updated_manila": "2026-10-30 05:15 (Manila, UTC+8)"
 }
