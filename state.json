@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 42.22926100094176,
- "equity": 51.649601336445485,
+ "cash": 51.352763898001555,
+ "equity": 51.352763898001555,
  "trades_n": 47,
  "closed": {
-  "n": 46,
-  "pnl": 7.40926100094179
+  "n": 47,
+  "pnl": 6.53276389800158
  },
- "open": [
-  {
-   "symbol": "HYPERCAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00021643220174496775,
-   "last_px": 0.0002045,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793311933.9691522,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "HYPERCAT",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00021643220174496775,
-   "last_px": 0.0002045,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001997,
+   "exit_px": 0.00019865210673517466,
+   "pnl": -0.8764971029402098,
    "opened": 1793311933.9691522,
-   "closed": null,
-   "status": "open",
+   "closed": 1793312328.821211,
+   "status": "closed",
    "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "stop loss -7.7%"
   },
   {
    "symbol": "$CHIMP",
@@ -494,6 +479,10 @@
   {
    "ts": 1793311386.611768,
    "equity": 52.22926100094176
+  },
+  {
+   "ts": 1793312328.8250306,
+   "equity": 51.352763898001555
   }
  ],
  "rej": [
@@ -555,7 +544,7 @@
   }
  ],
  "rej_total": 1497,
- "recent_rejections": 37,
- "updated_ts": 1793312281,
- "updated_manila": "2026-10-30 06:18 (Manila, UTC+8)"
+ "recent_rejections": 36,
+ "updated_ts": 1793312341,
+ "updated_manila": "2026-10-30 06:19 (Manila, UTC+8)"
 }
