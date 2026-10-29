@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 61.33249788203317,
- "equity": 61.33249788203317,
- "trades_n": 36,
+ "cash": 51.33249788203317,
+ "equity": 61.25041108740406,
+ "trades_n": 37,
  "closed": {
   "n": 36,
   "pnl": 16.512497882033195
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "0",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00022507587571860788,
+   "last_px": 0.0002239,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793240039.996435,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "0",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00022507587571860788,
+   "last_px": 0.0002239,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793240039.996435,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
+   "reason_close": null
+  },
   {
    "symbol": "BIO",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +4.0%; round-trip cost est 1.61%",
    "reason_close": "volume died (m5 < $200) (+5.3%)"
-  },
-  {
-   "symbol": "NETWORK",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 6.585968178235977e-05,
-   "last_px": 7.349e-05,
-   "exit_px": 7.308477063099091e-05,
-   "pnl": 1.0305603981218763,
-   "opened": 1793067477.70983,
-   "closed": 1793067936.3986847,
-   "status": "closed",
-   "reason_open": "volume spike 3.3x, m5 +10.9%; round-trip cost est 1.70%",
-   "reason_close": "volume died (m5 < $200) (+11.6%)"
   }
  ],
  "curve": [
@@ -500,7 +515,7 @@
   }
  ],
  "rej_total": 1241,
- "recent_rejections": 32,
- "updated_ts": 1793239802,
- "updated_manila": "2026-10-29 10:10 (Manila, UTC+8)"
+ "recent_rejections": 31,
+ "updated_ts": 1793240041,
+ "updated_manila": "2026-10-29 10:14 (Manila, UTC+8)"
 }
