@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 51.0939732277923,
- "equity": 51.0939732277923,
- "trades_n": 43,
+ "cash": 41.0939732277923,
+ "equity": 51.01050239501978,
+ "trades_n": 44,
  "closed": {
   "n": 43,
   "pnl": 6.2739732277923235
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "STANK",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 8.580016108981838e-05,
+   "last_px": 8.534e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793303278.4846084,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 6.6x, m5 +12.8%; round-trip cost est 1.68%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "STANK",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 8.580016108981838e-05,
+   "last_px": 8.534e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793303278.4846084,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 6.6x, m5 +12.8%; round-trip cost est 1.68%",
+   "reason_close": null
+  },
   {
    "symbol": "Lingo",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +7.3%; round-trip cost est 1.63%",
    "reason_close": "stop loss -7.3%"
-  },
-  {
-   "symbol": "Particle",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.326800975333733e-05,
-   "last_px": 6.569e-05,
-   "exit_px": 6.533287156967954e-05,
-   "pnl": -1.1364506071972933,
-   "opened": 1793078997.6184752,
-   "closed": 1793079148.976985,
-   "status": "closed",
-   "reason_open": "volume spike 1.2x, m5 +0.8%; round-trip cost est 1.69%",
-   "reason_close": "stop loss -10.3%"
   }
  ],
  "curve": [
@@ -472,7 +487,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 989
+   "n": 1005
   },
   {
    "check_name": "min_pair_age",
@@ -495,12 +510,12 @@
    "n": 31
   },
   {
-   "check_name": "min_buys",
-   "n": 18
+   "check_name": "risk:max_open_positions",
+   "n": 19
   },
   {
-   "check_name": "risk:max_open_positions",
-   "n": 17
+   "check_name": "min_buys",
+   "n": 18
   },
   {
    "check_name": "risk:max_position_size",
@@ -527,8 +542,8 @@
    "n": 1
   }
  ],
- "rej_total": 1429,
- "recent_rejections": 40,
- "updated_ts": 1793303277,
- "updated_manila": "2026-10-30 03:47 (Manila, UTC+8)"
+ "rej_total": 1447,
+ "recent_rejections": 39,
+ "updated_ts": 1793303282,
+ "updated_manila": "2026-10-30 03:48 (Manila, UTC+8)"
 }
