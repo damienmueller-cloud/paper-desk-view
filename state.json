@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 43.929628018246405,
- "equity": 54.10586614068036,
+ "cash": 51.57649769503911,
+ "equity": 51.57649769503911,
  "trades_n": 45,
  "closed": {
-  "n": 44,
-  "pnl": 9.109628018246434
+  "n": 45,
+  "pnl": 6.75649769503914
  },
- "open": [
-  {
-   "symbol": "OREN",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00016577088504651866,
-   "last_px": 0.0001692,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793303491.5149229,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "OREN",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00016577088504651866,
-   "last_px": 0.0001692,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001282,
+   "exit_px": 0.00012752684876669255,
+   "pnl": -2.353130323207294,
    "opened": 1793303491.5149229,
-   "closed": null,
-   "status": "open",
+   "closed": 1793308420.8788261,
+   "status": "closed",
    "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
-   "reason_close": null
+   "reason_close": "stop loss -22.7%"
   },
   {
    "symbol": "STANK",
@@ -486,6 +471,10 @@
   {
    "ts": 1793303490.8517928,
    "equity": 53.929628018246405
+  },
+  {
+   "ts": 1793308420.9164538,
+   "equity": 51.57649769503911
   }
  ],
  "rej": [
@@ -547,7 +536,7 @@
   }
  ],
  "rej_total": 1448,
- "recent_rejections": 37,
- "updated_ts": 1793303522,
- "updated_manila": "2026-10-30 03:52 (Manila, UTC+8)"
+ "recent_rejections": 36,
+ "updated_ts": 1793308421,
+ "updated_manila": "2026-10-30 05:13 (Manila, UTC+8)"
 }
