@@ -495,11 +495,11 @@
    "n": 30
   },
   {
-   "check_name": "risk:max_open_positions",
-   "n": 17
+   "check_name": "min_buys",
+   "n": 18
   },
   {
-   "check_name": "min_buys",
+   "check_name": "risk:max_open_positions",
    "n": 17
   },
   {
@@ -527,8 +527,8 @@
    "n": 1
   }
  ],
- "rej_total": 1385,
+ "rej_total": 1386,
  "recent_rejections": 37,
- "updated_ts": 1793270252,
- "updated_manila": "2026-10-29 18:37 (Manila, UTC+8)"
+ "updated_ts": 1793270281,
+ "updated_manila": "2026-10-29 18:38 (Manila, UTC+8)"
 }
