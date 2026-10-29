@@ -488,7 +488,7 @@
   },
   {
    "check_name": "min_volume",
-   "n": 26
+   "n": 27
   },
   {
    "check_name": "risk:max_open_positions",
@@ -523,8 +523,8 @@
    "n": 1
   }
  ],
- "rej_total": 1358,
+ "rej_total": 1359,
  "recent_rejections": 36,
- "updated_ts": 1793264942,
- "updated_manila": "2026-10-29 17:09 (Manila, UTC+8)"
+ "updated_ts": 1793265242,
+ "updated_manila": "2026-10-29 17:14 (Manila, UTC+8)"
 }
