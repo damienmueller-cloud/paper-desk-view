@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 53.929628018246405,
- "equity": 53.929628018246405,
- "trades_n": 44,
+ "cash": 43.929628018246405,
+ "equity": 54.10586614068036,
+ "trades_n": 45,
  "closed": {
   "n": 44,
   "pnl": 9.109628018246434
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "OREN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00016577088504651866,
+   "last_px": 0.0001692,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793303491.5149229,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "OREN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00016577088504651866,
+   "last_px": 0.0001692,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793303491.5149229,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
+   "reason_close": null
+  },
   {
    "symbol": "STANK",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +8.3%; round-trip cost est 1.62%",
    "reason_close": "time stop 45m (+4.2%)"
-  },
-  {
-   "symbol": "Rapport",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0007533438366123343,
-   "last_px": 0.0006984,
-   "exit_px": 0.0006948221281520941,
-   "pnl": -0.8320820425355961,
-   "opened": 1793182850.3548436,
-   "closed": 1793183275.1499214,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +7.3%; round-trip cost est 1.63%",
-   "reason_close": "stop loss -7.3%"
   }
  ],
  "curve": [
@@ -532,7 +547,7 @@
   }
  ],
  "rej_total": 1448,
- "recent_rejections": 38,
- "updated_ts": 1793303491,
- "updated_manila": "2026-10-30 03:51 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793303522,
+ "updated_manila": "2026-10-30 03:52 (Manila, UTC+8)"
 }
