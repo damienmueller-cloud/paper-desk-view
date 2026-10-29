@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 55.989744975658155,
- "equity": 65.36479717076406,
+ "cash": 61.33249788203317,
+ "equity": 61.33249788203317,
  "trades_n": 36,
  "closed": {
-  "n": 35,
-  "pnl": 21.169744975658183
+  "n": 36,
+  "pnl": 16.512497882033195
  },
- "open": [
-  {
-   "symbol": "BIO",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 5.958570559123052e-05,
-   "last_px": 5.603e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793239554.078443,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "BIO",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 5.958570559123052e-05,
-   "last_px": 5.603e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 3.22e-05,
+   "exit_px": 3.20270441943637e-05,
+   "pnl": -4.657247093624987,
    "opened": 1793239554.078443,
-   "closed": null,
-   "status": "open",
+   "closed": 1793239705.7317102,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "stop loss -46.0%"
   },
   {
    "symbol": "RSTR",
@@ -450,6 +435,10 @@
   {
    "ts": 1793237157.8582027,
    "equity": 65.98974497565816
+  },
+  {
+   "ts": 1793239705.738228,
+   "equity": 61.33249788203317
   }
  ],
  "rej": [
@@ -511,7 +500,7 @@
   }
  ],
  "rej_total": 1236,
- "recent_rejections": 33,
- "updated_ts": 1793239682,
+ "recent_rejections": 32,
+ "updated_ts": 1793239712,
  "updated_manila": "2026-10-29 10:08 (Manila, UTC+8)"
 }
