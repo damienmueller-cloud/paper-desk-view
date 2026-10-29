@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 52.77202133865582,
- "equity": 62.09046083833958,
+ "cash": 61.04268869865335,
+ "equity": 61.04268869865335,
  "trades_n": 38,
  "closed": {
-  "n": 37,
-  "pnl": 17.952021338655847
+  "n": 38,
+  "pnl": 16.22268869865338
  },
- "open": [
-  {
-   "symbol": "PODCAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0001548176601939584,
-   "last_px": 0.0001447,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793242792.4749281,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.7x, m5 +78.1%; round-trip cost est 1.66%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "PODCAT",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0001548176601939584,
-   "last_px": 0.0001447,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001295,
+   "exit_px": 0.00012881627519643798,
+   "pnl": -1.7293326400024664,
    "opened": 1793242792.4749281,
-   "closed": null,
-   "status": "open",
+   "closed": 1793242975.029271,
+   "status": "closed",
    "reason_open": "volume spike 1.7x, m5 +78.1%; round-trip cost est 1.66%",
-   "reason_close": null
+   "reason_close": "stop loss -16.4%"
   },
   {
    "symbol": "0",
@@ -458,6 +443,10 @@
   {
    "ts": 1793240313.0971375,
    "equity": 62.77202133865582
+  },
+  {
+   "ts": 1793242975.034413,
+   "equity": 61.04268869865335
   }
  ],
  "rej": [
@@ -519,7 +508,7 @@
   }
  ],
  "rej_total": 1260,
- "recent_rejections": 35,
- "updated_ts": 1793242921,
- "updated_manila": "2026-10-29 11:02 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1793242981,
+ "updated_manila": "2026-10-29 11:03 (Manila, UTC+8)"
 }
