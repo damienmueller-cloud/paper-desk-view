@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 44.997306897408635,
- "equity": 55.073873126815215,
+ "cash": 51.0939732277923,
+ "equity": 51.0939732277923,
  "trades_n": 43,
  "closed": {
-  "n": 42,
-  "pnl": 10.177306897408663
+  "n": 43,
+  "pnl": 6.2739732277923235
  },
- "open": [
-  {
-   "symbol": "Lingo",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00010596734797255265,
-   "last_px": 0.0001071,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793268278.2338285,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 2.9x, m5 +14.3%; round-trip cost est 1.68%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Lingo",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00010596734797255265,
-   "last_px": 0.0001071,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 6.534e-05,
+   "exit_px": 6.499413611992557e-05,
+   "pnl": -3.903333669616339,
    "opened": 1793268278.2338285,
-   "closed": null,
-   "status": "open",
+   "closed": 1793268801.5767226,
+   "status": "closed",
    "reason_open": "volume spike 2.9x, m5 +14.3%; round-trip cost est 1.68%",
-   "reason_close": null
+   "reason_close": "stop loss -38.3%"
   },
   {
    "symbol": "OTC",
@@ -478,12 +463,16 @@
   {
    "ts": 1793262480.0605786,
    "equity": 54.997306897408635
+  },
+  {
+   "ts": 1793268801.57882,
+   "equity": 51.0939732277923
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 946
+   "n": 947
   },
   {
    "check_name": "min_pair_age",
@@ -538,8 +527,8 @@
    "n": 1
   }
  ],
- "rej_total": 1375,
- "recent_rejections": 37,
- "updated_ts": 1793268722,
- "updated_manila": "2026-10-29 18:12 (Manila, UTC+8)"
+ "rej_total": 1376,
+ "recent_rejections": 36,
+ "updated_ts": 1793268802,
+ "updated_manila": "2026-10-29 18:13 (Manila, UTC+8)"
 }
