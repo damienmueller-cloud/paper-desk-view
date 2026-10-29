@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 61.360051821435945,
- "equity": 61.360051821435945,
- "trades_n": 32,
+ "cash": 51.360051821435945,
+ "equity": 61.27952056615655,
+ "trades_n": 33,
  "closed": {
   "n": 32,
   "pnl": 16.540051821435974
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "CPU",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0002624300823958412,
+   "last_px": 0.0002611,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793235096.0417125,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 3.1x, m5 +42.5%; round-trip cost est 1.62%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "CPU",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0002624300823958412,
+   "last_px": 0.0002611,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793235096.0417125,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 3.1x, m5 +42.5%; round-trip cost est 1.62%",
+   "reason_close": null
+  },
   {
    "symbol": "shibana",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 2.6x, m5 +57.1%; round-trip cost est 1.66%",
    "reason_close": "stop loss -9.0%"
-  },
-  {
-   "symbol": "Wifoween",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 6.909544102469534e-05,
-   "last_px": 9.165e-05,
-   "exit_px": 9.114371473039742e-05,
-   "pnl": 3.1119609907500525,
-   "opened": 1793062550.2311966,
-   "closed": 1793062824.288714,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +23.0%; round-trip cost est 1.69%",
-   "reason_close": "take profit +32.6%"
   }
  ],
  "curve": [
@@ -484,7 +499,7 @@
   }
  ],
  "rej_total": 1210,
- "recent_rejections": 39,
- "updated_ts": 1793235091,
- "updated_manila": "2026-10-29 08:51 (Manila, UTC+8)"
+ "recent_rejections": 38,
+ "updated_ts": 1793235122,
+ "updated_manila": "2026-10-29 08:52 (Manila, UTC+8)"
 }
