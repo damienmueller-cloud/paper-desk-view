@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 57.61211598559534,
- "equity": 57.61211598559534,
- "trades_n": 40,
+ "cash": 47.61211598559534,
+ "equity": 57.529202769591,
+ "trades_n": 41,
  "closed": {
   "n": 40,
   "pnl": 12.792115985595368
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "SELLICON",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00012838135106921304,
+   "last_px": 0.0001277,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793258272.617569,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +5.6%; round-trip cost est 1.67%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "SELLICON",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.00012838135106921304,
+   "last_px": 0.0001277,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793258272.617569,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +5.6%; round-trip cost est 1.67%",
+   "reason_close": null
+  },
   {
    "symbol": "SLEGO",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
    "reason_close": "stop loss -10.9%"
-  },
-  {
-   "symbol": "CAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00010104170042063415,
-   "last_px": 0.0001189,
-   "exit_px": 0.00011825594942952461,
-   "pnl": 1.6335609502952781,
-   "opened": 1793076966.9054294,
-   "closed": 1793077027.6646874,
-   "status": "closed",
-   "reason_open": "volume spike 1.6x, m5 +25.5%; round-trip cost est 1.68%",
-   "reason_close": "take profit +17.7%"
   }
  ],
  "curve": [
@@ -460,7 +475,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 919
+   "n": 921
   },
   {
    "check_name": "min_pair_age",
@@ -515,8 +530,8 @@
    "n": 1
   }
  ],
- "rej_total": 1331,
- "recent_rejections": 40,
- "updated_ts": 1793257622,
- "updated_manila": "2026-10-29 15:07 (Manila, UTC+8)"
+ "rej_total": 1333,
+ "recent_rejections": 39,
+ "updated_ts": 1793258280,
+ "updated_manila": "2026-10-29 15:17 (Manila, UTC+8)"
 }
