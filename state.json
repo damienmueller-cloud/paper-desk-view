@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 65.98974497565816,
- "equity": 65.98974497565816,
- "trades_n": 35,
+ "cash": 55.989744975658155,
+ "equity": 65.90524726161168,
+ "trades_n": 36,
  "closed": {
   "n": 35,
   "pnl": 21.169744975658183
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "BIO",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 5.958570559123052e-05,
+   "last_px": 5.926e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793239554.078443,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "BIO",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 5.958570559123052e-05,
+   "last_px": 5.926e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793239554.078443,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
+   "reason_close": null
+  },
   {
    "symbol": "RSTR",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 3.3x, m5 +10.9%; round-trip cost est 1.70%",
    "reason_close": "volume died (m5 < $200) (+11.6%)"
-  },
-  {
-   "symbol": "N64",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.514834756739216e-05,
-   "last_px": 7.256e-05,
-   "exit_px": 7.216431887612671e-05,
-   "pnl": -0.45461613411905866,
-   "opened": 1793064741.9220805,
-   "closed": 1793067446.5934854,
-   "status": "closed",
-   "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
-   "reason_close": "time stop 45m (-3.4%)"
   }
  ],
  "curve": [
@@ -496,7 +511,7 @@
   }
  ],
  "rej_total": 1235,
- "recent_rejections": 34,
- "updated_ts": 1793239472,
- "updated_manila": "2026-10-29 10:04 (Manila, UTC+8)"
+ "recent_rejections": 33,
+ "updated_ts": 1793239561,
+ "updated_manila": "2026-10-29 10:06 (Manila, UTC+8)"
 }
