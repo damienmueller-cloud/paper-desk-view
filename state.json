@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 63.288778208827395,
- "equity": 63.288778208827395,
- "trades_n": 34,
+ "cash": 53.288778208827395,
+ "equity": 63.204359706239615,
+ "trades_n": 35,
  "closed": {
   "n": 34,
   "pnl": 18.468778208827423
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "RSTR",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 6.912731242024349e-05,
+   "last_px": 6.875e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793236497.2923737,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.1x, m5 +38.5%; round-trip cost est 1.70%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "RSTR",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 6.912731242024349e-05,
+   "last_px": 6.875e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793236497.2923737,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.1x, m5 +38.5%; round-trip cost est 1.70%",
+   "reason_close": null
+  },
   {
    "symbol": "FLOATER",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.4x, m5 +3.7%; round-trip cost est 1.69%",
    "reason_close": "time stop 45m (-3.4%)"
-  },
-  {
-   "symbol": "TRUMP2028",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0008273220391837941,
-   "last_px": 0.0007368,
-   "exit_px": 0.0007330265059374108,
-   "pnl": -1.192849825937376,
-   "opened": 1793064346.5926702,
-   "closed": 1793064528.81385,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +7.6%; round-trip cost est 1.63%",
-   "reason_close": "stop loss -10.9%"
   }
  ],
  "curve": [
@@ -492,7 +507,7 @@
   }
  ],
  "rej_total": 1220,
- "recent_rejections": 35,
- "updated_ts": 1793236471,
- "updated_manila": "2026-10-29 09:14 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1793236501,
+ "updated_manila": "2026-10-29 09:15 (Manila, UTC+8)"
 }
