@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 47.61211598559534,
- "equity": 56.97005613807363,
+ "cash": 56.02983021159115,
+ "equity": 56.02983021159115,
  "trades_n": 41,
  "closed": {
-  "n": 40,
-  "pnl": 12.792115985595368
+  "n": 41,
+  "pnl": 11.209830211591175
  },
- "open": [
-  {
-   "symbol": "SELLICON",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00012838135106921304,
-   "last_px": 0.0001205,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793258272.617569,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +5.6%; round-trip cost est 1.67%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "SELLICON",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.00012838135106921304,
-   "last_px": 0.0001205,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0001093,
+   "exit_px": 0.00010871908858449738,
+   "pnl": -1.582285774004193,
    "opened": 1793258272.617569,
-   "closed": null,
-   "status": "open",
+   "closed": 1793258982.03546,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +5.6%; round-trip cost est 1.67%",
-   "reason_close": null
+   "reason_close": "stop loss -14.9%"
   },
   {
    "symbol": "SLEGO",
@@ -470,6 +455,10 @@
   {
    "ts": 1793246415.1363356,
    "equity": 57.61211598559534
+  },
+  {
+   "ts": 1793258982.0404084,
+   "equity": 56.02983021159115
   }
  ],
  "rej": [
@@ -531,7 +520,7 @@
   }
  ],
  "rej_total": 1335,
- "recent_rejections": 39,
- "updated_ts": 1793258969,
- "updated_manila": "2026-10-29 15:29 (Manila, UTC+8)"
+ "recent_rejections": 38,
+ "updated_ts": 1793259002,
+ "updated_manila": "2026-10-29 15:30 (Manila, UTC+8)"
 }
