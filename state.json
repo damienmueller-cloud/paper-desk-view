@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 56.02983021159115,
- "equity": 56.02983021159115,
- "trades_n": 41,
+ "cash": 46.02983021159115,
+ "equity": 55.946189995941126,
+ "trades_n": 42,
  "closed": {
   "n": 41,
   "pnl": 11.209830211591175
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "OTC",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.16933249472253e-05,
+   "last_px": 9.12e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793262237.648591,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +14.8%; round-trip cost est 1.68%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "OTC",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.16933249472253e-05,
+   "last_px": 9.12e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793262237.648591,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.2x, m5 +14.8%; round-trip cost est 1.68%",
+   "reason_close": null
+  },
   {
    "symbol": "SELLICON",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +5.8%; round-trip cost est 1.66%",
    "reason_close": "stop loss -8.0%"
-  },
-  {
-   "symbol": "TGC",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.000122251736287451,
-   "last_px": 0.0001089,
-   "exit_px": 0.00010831860986560863,
-   "pnl": -1.1927898659255334,
-   "opened": 1793077028.0482097,
-   "closed": 1793077088.4623866,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +5.5%; round-trip cost est 1.67%",
-   "reason_close": "stop loss -10.9%"
   }
  ],
  "curve": [
@@ -520,7 +535,7 @@
   }
  ],
  "rej_total": 1348,
- "recent_rejections": 38,
- "updated_ts": 1793262211,
- "updated_manila": "2026-10-29 16:23 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1793262242,
+ "updated_manila": "2026-10-29 16:24 (Manila, UTC+8)"
 }
