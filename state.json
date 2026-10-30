@@ -512,7 +512,7 @@
   },
   {
    "check_name": "price_present",
-   "n": 58
+   "n": 59
   },
   {
    "check_name": "risk:desk_halted",
@@ -555,8 +555,8 @@
    "n": 1
   }
  ],
- "rej_total": 1552,
+ "rej_total": 1553,
  "recent_rejections": 34,
- "updated_ts": 1793322451,
- "updated_manila": "2026-10-30 09:07 (Manila, UTC+8)"
+ "updated_ts": 1793323057,
+ "updated_manila": "2026-10-30 09:17 (Manila, UTC+8)"
 }
