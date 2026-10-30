@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 39.815387897511705,
- "equity": 49.73211113454989,
+ "cash": 48.937818367065134,
+ "equity": 48.937818367065134,
  "trades_n": 53,
  "closed": {
-  "n": 52,
-  "pnl": 4.995387897511728
+  "n": 53,
+  "pnl": 4.1178183670651585
  },
- "open": [
-  {
-   "symbol": "FLUKE",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 9.864714146163613e-05,
-   "last_px": 9.812e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793328693.9992933,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.8x, m5 +96.5%; round-trip cost est 1.67%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "FLUKE",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 9.864714146163613e-05,
-   "last_px": 9.812e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 9.102e-05,
+   "exit_px": 9.053254940387631e-05,
+   "pnl": -0.8775695304465696,
    "opened": 1793328693.9992933,
-   "closed": null,
-   "status": "open",
+   "closed": 1793328724.075056,
+   "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +96.5%; round-trip cost est 1.67%",
-   "reason_close": null
+   "reason_close": "stop loss -7.7%"
   },
   {
    "symbol": "ZERODAY",
@@ -518,6 +503,10 @@
   {
    "ts": 1793327415.8442016,
    "equity": 49.815387897511705
+  },
+  {
+   "ts": 1793328724.0805898,
+   "equity": 48.937818367065134
   }
  ],
  "rej": [
@@ -579,7 +568,7 @@
   }
  ],
  "rej_total": 1591,
- "recent_rejections": 35,
- "updated_ts": 1793328722,
+ "recent_rejections": 34,
+ "updated_ts": 1793328752,
  "updated_manila": "2026-10-30 10:52 (Manila, UTC+8)"
 }
