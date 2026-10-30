@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 51.352763898001555,
- "equity": 51.352763898001555,
- "trades_n": 47,
+ "cash": 41.352763898001555,
+ "equity": 51.2683138718496,
+ "trades_n": 48,
  "closed": {
   "n": 47,
   "pnl": 6.53276389800158
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "calm",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.242554390770755e-05,
+   "last_px": 7.203e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793319117.3573337,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +44.0%; round-trip cost est 1.70%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "calm",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 7.242554390770755e-05,
+   "last_px": 7.203e-05,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1793319117.3573337,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +44.0%; round-trip cost est 1.70%",
+   "reason_close": null
+  },
   {
    "symbol": "HYPERCAT",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 2.8x, m5 +55.3%; round-trip cost est 1.63%",
    "reason_close": "take profit +19.2%"
-  },
-  {
-   "symbol": "Nipple",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0002448768291833321,
-   "last_px": 0.0002179,
-   "exit_px": 0.00021676148904135802,
-   "pnl": -1.201173599025962,
-   "opened": 1793196010.091379,
-   "closed": 1793196071.0231187,
-   "status": "closed",
-   "reason_open": "volume spike 2.5x, m5 +80.8%; round-trip cost est 1.65%",
-   "reason_close": "stop loss -11.0%"
   }
  ],
  "curve": [
@@ -544,7 +559,7 @@
   }
  ],
  "rej_total": 1535,
- "recent_rejections": 39,
- "updated_ts": 1793319061,
- "updated_manila": "2026-10-30 08:11 (Manila, UTC+8)"
+ "recent_rejections": 38,
+ "updated_ts": 1793319121,
+ "updated_manila": "2026-10-30 08:12 (Manila, UTC+8)"
 }
