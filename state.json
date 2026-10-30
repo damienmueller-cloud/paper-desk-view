@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 41.352763898001555,
- "equity": 51.284832905541975,
+ "cash": 52.74263201587962,
+ "equity": 52.74263201587962,
  "trades_n": 48,
  "closed": {
-  "n": 47,
-  "pnl": 6.53276389800158
+  "n": 48,
+  "pnl": 7.92263201587965
  },
- "open": [
-  {
-   "symbol": "calm",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.242554390770755e-05,
-   "last_px": 7.215e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793319117.3573337,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.8x, m5 +44.0%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "calm",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.242554390770755e-05,
-   "last_px": 7.215e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 8.345e-05,
+   "exit_px": 8.298892600312234e-05,
+   "pnl": 1.3898681178780699,
    "opened": 1793319117.3573337,
-   "closed": null,
-   "status": "open",
+   "closed": 1793320247.2583773,
+   "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +44.0%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "take profit +15.2%"
   },
   {
    "symbol": "HYPERCAT",
@@ -498,16 +483,20 @@
   {
    "ts": 1793312328.8250306,
    "equity": 51.352763898001555
+  },
+  {
+   "ts": 1793320247.264216,
+   "equity": 52.74263201587962
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1073
+   "n": 1081
   },
   {
    "check_name": "min_pair_age",
-   "n": 211
+   "n": 214
   },
   {
    "check_name": "max_pair_age",
@@ -558,8 +547,8 @@
    "n": 1
   }
  ],
- "rej_total": 1535,
+ "rej_total": 1546,
  "recent_rejections": 38,
- "updated_ts": 1793319182,
- "updated_manila": "2026-10-30 08:13 (Manila, UTC+8)"
+ "updated_ts": 1793320261,
+ "updated_manila": "2026-10-30 08:31 (Manila, UTC+8)"
 }
