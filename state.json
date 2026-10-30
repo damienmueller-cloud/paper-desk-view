@@ -1,15 +1,29 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 48.375951165620435,
- "equity": 48.375951165620435,
- "trades_n": 51,
+ "cash": 49.815387897511705,
+ "equity": 49.815387897511705,
+ "trades_n": 52,
  "closed": {
-  "n": 51,
-  "pnl": 3.5559511656204563
+  "n": 52,
+  "pnl": 4.995387897511728
  },
  "open": [],
  "trades": [
+  {
+   "symbol": "ZERODAY",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.791589456587546e-05,
+   "last_px": 0.0001133,
+   "exit_px": 0.0001126853661217221,
+   "pnl": 1.4394367318912717,
+   "opened": 1793327325.0561006,
+   "closed": 1793327415.8380022,
+   "status": "closed",
+   "reason_open": "volume spike 1.9x, m5 +136.0%; round-trip cost est 1.68%",
+   "reason_close": "take profit +15.7%"
+  },
   {
    "symbol": "SAFU",
    "chain": "solana",
@@ -275,20 +289,6 @@
    "status": "closed",
    "reason_open": "volume spike 3.1x, m5 +42.5%; round-trip cost est 1.62%",
    "reason_close": "stop loss -19.4%"
-  },
-  {
-   "symbol": "shibana",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 8.749204125398196e-05,
-   "last_px": 8.874e-05,
-   "exit_px": 8.825865310471303e-05,
-   "pnl": 0.027185816740779245,
-   "opened": 1793230306.0160227,
-   "closed": 1793233011.5641673,
-   "status": "closed",
-   "reason_open": "volume spike 1.2x, m5 +0.9%; round-trip cost est 1.68%",
-   "reason_close": "time stop 45m (+1.4%)"
   }
  ],
  "curve": [
@@ -499,16 +499,20 @@
   {
    "ts": 1793324269.3923852,
    "equity": 48.375951165620435
+  },
+  {
+   "ts": 1793327415.8442016,
+   "equity": 49.815387897511705
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1104
+   "n": 1111
   },
   {
    "check_name": "min_pair_age",
-   "n": 221
+   "n": 224
   },
   {
    "check_name": "max_pair_age",
@@ -559,8 +563,8 @@
    "n": 1
   }
  ],
- "rej_total": 1577,
- "recent_rejections": 33,
- "updated_ts": 1793326861,
- "updated_manila": "2026-10-30 10:21 (Manila, UTC+8)"
+ "rej_total": 1587,
+ "recent_rejections": 36,
+ "updated_ts": 1793327941,
+ "updated_manila": "2026-10-30 10:39 (Manila, UTC+8)"
 }
