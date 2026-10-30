@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 39.666927344458934,
- "equity": 49.22015798454912,
+ "cash": 48.375951165620435,
+ "equity": 48.375951165620435,
  "trades_n": 51,
  "closed": {
-  "n": 50,
-  "pnl": 4.846927344458958
+  "n": 51,
+  "pnl": 3.5559511656204563
  },
- "open": [
-  {
-   "symbol": "SAFU",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.042388332766653e-05,
-   "last_px": 6.748e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1793324056.8646464,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 3.1x, m5 +55.0%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "SAFU",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.042388332766653e-05,
-   "last_px": 6.748e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 6.204e-05,
+   "exit_px": 6.170198433609211e-05,
+   "pnl": -1.290976178838502,
    "opened": 1793324056.8646464,
-   "closed": null,
-   "status": "open",
+   "closed": 1793324269.3856874,
+   "status": "closed",
    "reason_open": "volume spike 3.1x, m5 +55.0%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "stop loss -11.9%"
   },
   {
    "symbol": "ZERODAY",
@@ -510,6 +495,10 @@
   {
    "ts": 1793322156.256172,
    "equity": 49.666927344458934
+  },
+  {
+   "ts": 1793324269.3923852,
+   "equity": 48.375951165620435
   }
  ],
  "rej": [
@@ -571,7 +560,7 @@
   }
  ],
  "rej_total": 1557,
- "recent_rejections": 33,
- "updated_ts": 1793324252,
- "updated_manila": "2026-10-30 09:37 (Manila, UTC+8)"
+ "recent_rejections": 32,
+ "updated_ts": 1793324282,
+ "updated_manila": "2026-10-30 09:38 (Manila, UTC+8)"
 }
