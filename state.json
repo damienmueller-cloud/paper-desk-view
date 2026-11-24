@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 38.937818367065134,
- "equity": 48.71718181146082,
+ "cash": 50.31988960616306,
+ "equity": 50.31988960616306,
  "trades_n": 54,
  "closed": {
-  "n": 53,
-  "pnl": 4.1178183670651585
+  "n": 54,
+  "pnl": 5.4998896061630855
  },
- "open": [
-  {
-   "symbol": "cateball",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0007717567756749207,
-   "last_px": 0.000757,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795525279.7790506,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.4x, m5 +30.4%; round-trip cost est 1.63%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "cateball",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0007717567756749207,
-   "last_px": 0.000757,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0008883,
+   "exit_px": 0.000883713386899763,
+   "pnl": 1.382071239097927,
    "opened": 1795525279.7790506,
-   "closed": null,
-   "status": "open",
+   "closed": 1795525340.224538,
+   "status": "closed",
    "reason_open": "volume spike 1.4x, m5 +30.4%; round-trip cost est 1.63%",
-   "reason_close": null
+   "reason_close": "take profit +15.1%"
   },
   {
    "symbol": "FLUKE",
@@ -522,12 +507,16 @@
   {
    "ts": 1793328724.0805898,
    "equity": 48.937818367065134
+  },
+  {
+   "ts": 1795525340.2269526,
+   "equity": 50.31988960616306
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1150
+   "n": 1152
   },
   {
    "check_name": "min_pair_age",
@@ -582,8 +571,8 @@
    "n": 1
   }
  ],
- "rej_total": 1636,
- "recent_rejections": 39,
- "updated_ts": 1795525319,
- "updated_manila": "2026-11-24 21:01 (Manila, UTC+8)"
+ "rej_total": 1638,
+ "recent_rejections": 38,
+ "updated_ts": 1795525449,
+ "updated_manila": "2026-11-24 21:04 (Manila, UTC+8)"
 }
