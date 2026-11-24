@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 36.12644257329852,
- "equity": 45.76330766221488,
+ "cash": 45.20582139915763,
+ "equity": 45.20582139915763,
  "trades_n": 61,
  "closed": {
-  "n": 60,
-  "pnl": 1.306442573298538
+  "n": 61,
+  "pnl": 0.3858213991576456
  },
- "open": [
-  {
-   "symbol": "goldcoin",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 6.187756023334069e-05,
-   "last_px": 5.981e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795559454.3221366,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.6x, m5 +78.1%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "goldcoin",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 6.187756023334069e-05,
-   "last_px": 5.981e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 5.683e-05,
+   "exit_px": 5.651958988081746e-05,
+   "pnl": -0.9206211741408925,
    "opened": 1795559454.3221366,
-   "closed": null,
-   "status": "open",
+   "closed": 1795559545.0866148,
+   "status": "closed",
    "reason_open": "volume spike 1.6x, m5 +78.1%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "stop loss -8.2%"
   },
   {
    "symbol": "Squirrel",
@@ -550,6 +535,10 @@
   {
    "ts": 1795558689.6178887,
    "equity": 46.12644257329852
+  },
+  {
+   "ts": 1795559545.0919805,
+   "equity": 45.20582139915763
   }
  ],
  "rej": [
@@ -611,7 +600,7 @@
   }
  ],
  "rej_total": 1799,
- "recent_rejections": 35,
- "updated_ts": 1795559517,
- "updated_manila": "2026-11-25 06:31 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1795559644,
+ "updated_manila": "2026-11-25 06:34 (Manila, UTC+8)"
 }
