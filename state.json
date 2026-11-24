@@ -592,7 +592,7 @@
   },
   {
    "check_name": "risk:daily_loss_limit",
-   "n": 3
+   "n": 4
   },
   {
    "check_name": "sell_pressure",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1821,
- "recent_rejections": 31,
- "updated_ts": 1795564520,
- "updated_manila": "2026-11-25 07:55 (Manila, UTC+8)"
+ "rej_total": 1822,
+ "recent_rejections": 32,
+ "updated_ts": 1795564706,
+ "updated_manila": "2026-11-25 07:58 (Manila, UTC+8)"
 }
