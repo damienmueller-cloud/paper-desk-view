@@ -1,15 +1,29 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 46.74229930955093,
- "equity": 46.74229930955093,
- "trades_n": 62,
+ "cash": 37.496592365860835,
+ "equity": 37.496592365860835,
+ "trades_n": 63,
  "closed": {
-  "n": 62,
-  "pnl": 1.9222993095509473
+  "n": 63,
+  "pnl": -7.323407634139151
  },
  "open": [],
  "trades": [
+  {
+   "symbol": "MARS",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0010232302916136208,
+   "last_px": 7.804e-05,
+   "exit_px": 7.764673196823268e-05,
+   "pnl": -9.245706943690099,
+   "opened": 1795563361.4047923,
+   "closed": 1795564453.8591547,
+   "status": "closed",
+   "reason_open": "volume spike 1.3x, m5 +11.0%; round-trip cost est 1.63%",
+   "reason_close": "stop loss -92.4%"
+  },
   {
    "symbol": "BTC",
    "chain": "solana",
@@ -275,20 +289,6 @@
    "status": "closed",
    "reason_open": "volume spike 6.6x, m5 +12.8%; round-trip cost est 1.68%",
    "reason_close": "take profit +29.8%"
-  },
-  {
-   "symbol": "Lingo",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00010596734797255265,
-   "last_px": 6.534e-05,
-   "exit_px": 6.499413611992557e-05,
-   "pnl": -3.903333669616339,
-   "opened": 1793268278.2338285,
-   "closed": 1793268801.5767226,
-   "status": "closed",
-   "reason_open": "volume spike 2.9x, m5 +14.3%; round-trip cost est 1.68%",
-   "reason_close": "stop loss -38.3%"
   }
  ],
  "curve": [
@@ -543,12 +543,16 @@
   {
    "ts": 1795560861.5530374,
    "equity": 46.74229930955093
+  },
+  {
+   "ts": 1795564453.8656254,
+   "equity": 37.496592365860835
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1294
+   "n": 1296
   },
   {
    "check_name": "min_pair_age",
@@ -560,7 +564,7 @@
   },
   {
    "check_name": "price_present",
-   "n": 66
+   "n": 67
   },
   {
    "check_name": "risk:desk_halted",
@@ -603,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1818,
- "recent_rejections": 32,
- "updated_ts": 1795563361,
- "updated_manila": "2026-11-25 07:36 (Manila, UTC+8)"
+ "rej_total": 1821,
+ "recent_rejections": 31,
+ "updated_ts": 1795564520,
+ "updated_manila": "2026-11-25 07:55 (Manila, UTC+8)"
 }
