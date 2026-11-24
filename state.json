@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 35.73295950768987,
- "equity": 45.49731082098148,
+ "cash": 47.40147037123734,
+ "equity": 47.40147037123734,
  "trades_n": 59,
  "closed": {
-  "n": 58,
-  "pnl": 0.9129595076898909
+  "n": 59,
+  "pnl": 2.5814703712373586
  },
- "open": [
-  {
-   "symbol": "ANSEM",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.895866046426581e-05,
-   "last_px": 7.733e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795557455.4111435,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +0.4%; round-trip cost est 1.69%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "ANSEM",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 7.895866046426581e-05,
-   "last_px": 7.733e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 9.32e-05,
+   "exit_px": 9.268829431106172e-05,
+   "pnl": 1.6685108635474677,
    "opened": 1795557455.4111435,
-   "closed": null,
-   "status": "open",
+   "closed": 1795557609.5460086,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +0.4%; round-trip cost est 1.69%",
-   "reason_close": null
+   "reason_close": "take profit +18.0%"
   },
   {
    "symbol": "CHUCHU",
@@ -542,6 +527,10 @@
   {
    "ts": 1795540993.4181757,
    "equity": 45.73295950768987
+  },
+  {
+   "ts": 1795557609.5496936,
+   "equity": 47.40147037123734
   }
  ],
  "rej": [
@@ -603,7 +592,7 @@
   }
  ],
  "rej_total": 1790,
- "recent_rejections": 39,
- "updated_ts": 1795557586,
- "updated_manila": "2026-11-25 05:59 (Manila, UTC+8)"
+ "recent_rejections": 38,
+ "updated_ts": 1795557713,
+ "updated_manila": "2026-11-25 06:01 (Manila, UTC+8)"
 }
