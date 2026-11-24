@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 40.31988960616306,
- "equity": 50.280567414933266,
+ "cash": 48.48954477735074,
+ "equity": 48.48954477735074,
  "trades_n": 55,
  "closed": {
-  "n": 54,
-  "pnl": 5.4998896061630855
+  "n": 55,
+  "pnl": 3.6695447773507617
  },
- "open": [
-  {
-   "symbol": "DONJENSEN",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0024222648762673798,
-   "last_px": 0.00242,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795526042.276903,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 2.8x, m5 +2.4%; round-trip cost est 1.62%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "DONJENSEN",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0024222648762673798,
-   "last_px": 0.00242,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.002001,
+   "exit_px": 0.0019908339635138187,
+   "pnl": -1.8303448288123239,
    "opened": 1795526042.276903,
-   "closed": null,
-   "status": "open",
+   "closed": 1795529189.4488716,
+   "status": "closed",
    "reason_open": "volume spike 2.8x, m5 +2.4%; round-trip cost est 1.62%",
-   "reason_close": null
+   "reason_close": "stop loss -17.4%"
   },
   {
    "symbol": "cateball",
@@ -526,20 +511,24 @@
   {
    "ts": 1795525340.2269526,
    "equity": 50.31988960616306
+  },
+  {
+   "ts": 1795529189.5401068,
+   "equity": 48.48954477735074
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1154
+   "n": 1157
   },
   {
    "check_name": "min_pair_age",
-   "n": 227
+   "n": 229
   },
   {
    "check_name": "max_pair_age",
-   "n": 66
+   "n": 68
   },
   {
    "check_name": "price_present",
@@ -555,7 +544,7 @@
   },
   {
    "check_name": "risk:max_open_positions",
-   "n": 22
+   "n": 23
   },
   {
    "check_name": "min_buys",
@@ -586,8 +575,8 @@
    "n": 1
   }
  ],
- "rej_total": 1642,
- "recent_rejections": 37,
- "updated_ts": 1795526600,
- "updated_manila": "2026-11-24 21:23 (Manila, UTC+8)"
+ "rej_total": 1650,
+ "recent_rejections": 36,
+ "updated_ts": 1795529222,
+ "updated_manila": "2026-11-24 22:07 (Manila, UTC+8)"
 }
