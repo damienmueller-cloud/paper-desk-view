@@ -544,7 +544,7 @@
   },
   {
    "check_name": "min_buys",
-   "n": 18
+   "n": 19
   },
   {
    "check_name": "risk:max_position_size",
@@ -571,8 +571,8 @@
    "n": 1
   }
  ],
- "rej_total": 1638,
+ "rej_total": 1639,
  "recent_rejections": 38,
- "updated_ts": 1795525449,
- "updated_manila": "2026-11-24 21:04 (Manila, UTC+8)"
+ "updated_ts": 1795525787,
+ "updated_manila": "2026-11-24 21:09 (Manila, UTC+8)"
 }
