@@ -512,7 +512,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1125
+   "n": 1149
   },
   {
    "check_name": "min_pair_age",
@@ -520,11 +520,11 @@
   },
   {
    "check_name": "max_pair_age",
-   "n": 63
+   "n": 66
   },
   {
    "check_name": "price_present",
-   "n": 60
+   "n": 61
   },
   {
    "check_name": "risk:desk_halted",
@@ -532,7 +532,7 @@
   },
   {
    "check_name": "min_volume",
-   "n": 32
+   "n": 33
   },
   {
    "check_name": "risk:max_open_positions",
@@ -548,7 +548,7 @@
   },
   {
    "check_name": "holder_concentration",
-   "n": 4
+   "n": 5
   },
   {
    "check_name": "risk:daily_loss_limit",
@@ -567,8 +567,8 @@
    "n": 1
   }
  ],
- "rej_total": 1605,
- "recent_rejections": 36,
- "updated_ts": 1793330252,
- "updated_manila": "2026-10-30 11:17 (Manila, UTC+8)"
+ "rej_total": 1635,
+ "recent_rejections": 40,
+ "updated_ts": 1795524993,
+ "updated_manila": "2026-11-24 20:56 (Manila, UTC+8)"
 }
