@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 36.659310960444415,
- "equity": 46.00142883016503,
+ "cash": 45.73295950768987,
+ "equity": 45.73295950768987,
  "trades_n": 58,
  "closed": {
-  "n": 57,
-  "pnl": 1.8393109604444398
+  "n": 58,
+  "pnl": 0.9129595076898909
  },
- "open": [
-  {
-   "symbol": "CHUCHU",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 9.700937331751977e-05,
-   "last_px": 9.09e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795540932.9623446,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.7x, m5 +17.0%; round-trip cost est 1.70%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "CHUCHU",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 9.700937331751977e-05,
-   "last_px": 9.09e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 8.904e-05,
+   "exit_px": 8.855341946317435e-05,
+   "pnl": -0.9263514527545489,
    "opened": 1795540932.9623446,
-   "closed": null,
-   "status": "open",
+   "closed": 1795540993.4101453,
+   "status": "closed",
    "reason_open": "volume spike 1.7x, m5 +17.0%; round-trip cost est 1.70%",
-   "reason_close": null
+   "reason_close": "stop loss -8.2%"
   },
   {
    "symbol": "poor dog",
@@ -538,12 +523,16 @@
   {
    "ts": 1795539311.1399345,
    "equity": 46.659310960444415
+  },
+  {
+   "ts": 1795540993.4181757,
+   "equity": 45.73295950768987
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1201
+   "n": 1202
   },
   {
    "check_name": "min_pair_age",
@@ -598,8 +587,8 @@
    "n": 1
   }
  ],
- "rej_total": 1707,
- "recent_rejections": 36,
- "updated_ts": 1795540992,
- "updated_manila": "2026-11-25 01:23 (Manila, UTC+8)"
+ "rej_total": 1708,
+ "recent_rejections": 35,
+ "updated_ts": 1795541204,
+ "updated_manila": "2026-11-25 01:26 (Manila, UTC+8)"
 }
