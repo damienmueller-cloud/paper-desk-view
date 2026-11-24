@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 50.31988960616306,
- "equity": 50.31988960616306,
- "trades_n": 54,
+ "cash": 40.31988960616306,
+ "equity": 50.09946418204653,
+ "trades_n": 55,
  "closed": {
   "n": 54,
   "pnl": 5.4998896061630855
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "DONJENSEN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0024222648762673798,
+   "last_px": 0.002376,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795526042.276903,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.8x, m5 +2.4%; round-trip cost est 1.62%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "DONJENSEN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0024222648762673798,
+   "last_px": 0.002376,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795526042.276903,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.8x, m5 +2.4%; round-trip cost est 1.62%",
+   "reason_close": null
+  },
   {
    "symbol": "cateball",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
    "reason_close": "stop loss -46.0%"
-  },
-  {
-   "symbol": "RSTR",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 6.912731242024349e-05,
-   "last_px": 8.882e-05,
-   "exit_px": 8.83275400655165e-05,
-   "pnl": 2.7009667668307618,
-   "opened": 1793236497.2923737,
-   "closed": 1793237157.8531506,
-   "status": "closed",
-   "reason_open": "volume spike 2.1x, m5 +38.5%; round-trip cost est 1.70%",
-   "reason_close": "take profit +28.5%"
   }
  ],
  "curve": [
@@ -572,7 +587,7 @@
   }
  ],
  "rej_total": 1640,
- "recent_rejections": 38,
- "updated_ts": 1795525957,
- "updated_manila": "2026-11-24 21:12 (Manila, UTC+8)"
+ "recent_rejections": 37,
+ "updated_ts": 1795526086,
+ "updated_manila": "2026-11-24 21:14 (Manila, UTC+8)"
 }
