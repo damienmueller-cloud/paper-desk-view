@@ -1,15 +1,29 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 47.66550925803923,
- "equity": 47.66550925803923,
- "trades_n": 56,
+ "cash": 46.659310960444415,
+ "equity": 46.659310960444415,
+ "trades_n": 57,
  "closed": {
-  "n": 56,
-  "pnl": 2.845509258039254
+  "n": 57,
+  "pnl": 1.8393109604444398
  },
  "open": [],
  "trades": [
+  {
+   "symbol": "poor dog",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 9.261609741955647e-05,
+   "last_px": 8.426e-05,
+   "exit_px": 8.379912200413995e-05,
+   "pnl": -1.006198297594814,
+   "opened": 1795539250.5880978,
+   "closed": 1795539311.1284924,
+   "status": "closed",
+   "reason_open": "volume spike 1.3x, m5 +45.0%; round-trip cost est 1.70%",
+   "reason_close": "stop loss -9.0%"
+  },
   {
    "symbol": "JENSEN",
    "chain": "solana",
@@ -275,20 +289,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.7x, m5 +78.1%; round-trip cost est 1.66%",
    "reason_close": "stop loss -16.4%"
-  },
-  {
-   "symbol": "0",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00022507587571860788,
-   "last_px": 0.0002604,
-   "exit_px": 0.0002590279122022938,
-   "pnl": 1.4395234566226485,
-   "opened": 1793240039.996435,
-   "closed": 1793240313.0933015,
-   "status": "closed",
-   "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
-   "reason_close": "take profit +15.7%"
   }
  ],
  "curve": [
@@ -519,12 +519,16 @@
   {
    "ts": 1795537329.9541407,
    "equity": 47.66550925803923
+  },
+  {
+   "ts": 1795539311.1399345,
+   "equity": 46.659310960444415
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1193
+   "n": 1194
   },
   {
    "check_name": "min_pair_age",
@@ -579,8 +583,8 @@
    "n": 1
   }
  ],
- "rej_total": 1699,
- "recent_rejections": 38,
- "updated_ts": 1795539250,
- "updated_manila": "2026-11-25 00:54 (Manila, UTC+8)"
+ "rej_total": 1700,
+ "recent_rejections": 36,
+ "updated_ts": 1795539379,
+ "updated_manila": "2026-11-25 00:56 (Manila, UTC+8)"
 }
