@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 48.48954477735074,
- "equity": 48.48954477735074,
- "trades_n": 55,
+ "cash": 38.48954477735074,
+ "equity": 48.36633119163008,
+ "trades_n": 56,
  "closed": {
   "n": 55,
   "pnl": 3.6695447773507617
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "JENSEN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0001014484831373272,
+   "last_px": 0.0001005,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795535132.6495767,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +17.2%; round-trip cost est 1.69%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "JENSEN",
+   "chain": "solana",
+   "cost": 10.0,
+   "entry_px": 0.0001014484831373272,
+   "last_px": 0.0001005,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795535132.6495767,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.8x, m5 +17.2%; round-trip cost est 1.69%",
+   "reason_close": null
+  },
   {
    "symbol": "DONJENSEN",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.5x, m5 +27.4%; round-trip cost est 1.65%",
    "reason_close": "take profit +15.7%"
-  },
-  {
-   "symbol": "BIO",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 5.958570559123052e-05,
-   "last_px": 3.22e-05,
-   "exit_px": 3.20270441943637e-05,
-   "pnl": -4.657247093624987,
-   "opened": 1793239554.078443,
-   "closed": 1793239705.7317102,
-   "status": "closed",
-   "reason_open": "volume spike 1.3x, m5 +2.8%; round-trip cost est 1.70%",
-   "reason_close": "stop loss -46.0%"
   }
  ],
  "curve": [
@@ -532,7 +547,7 @@
   },
   {
    "check_name": "price_present",
-   "n": 61
+   "n": 62
   },
   {
    "check_name": "risk:desk_halted",
@@ -575,8 +590,8 @@
    "n": 1
   }
  ],
- "rej_total": 1670,
- "recent_rejections": 36,
- "updated_ts": 1795534922,
- "updated_manila": "2026-11-24 23:42 (Manila, UTC+8)"
+ "rej_total": 1671,
+ "recent_rejections": 35,
+ "updated_ts": 1795535176,
+ "updated_manila": "2026-11-24 23:46 (Manila, UTC+8)"
 }
