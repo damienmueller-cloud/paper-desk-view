@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 37.40147037123734,
- "equity": 47.26368824520029,
+ "cash": 46.12644257329852,
+ "equity": 46.12644257329852,
  "trades_n": 60,
  "closed": {
-  "n": 59,
-  "pnl": 2.5814703712373586
+  "n": 60,
+  "pnl": 1.306442573298538
  },
- "open": [
-  {
-   "symbol": "Squirrel",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0007232184576686825,
-   "last_px": 0.0007154,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795558628.9264097,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 3.2x, m5 +33.5%; round-trip cost est 1.63%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Squirrel",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0007232184576686825,
-   "last_px": 0.0007154,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0006381,
+   "exit_px": 0.0006348092360508622,
+   "pnl": -1.2750277979388205,
    "opened": 1795558628.9264097,
-   "closed": null,
-   "status": "open",
+   "closed": 1795558689.6106405,
+   "status": "closed",
    "reason_open": "volume spike 3.2x, m5 +33.5%; round-trip cost est 1.63%",
-   "reason_close": null
+   "reason_close": "stop loss -11.8%"
   },
   {
    "symbol": "ANSEM",
@@ -546,6 +531,10 @@
   {
    "ts": 1795557609.5496936,
    "equity": 47.40147037123734
+  },
+  {
+   "ts": 1795558689.6178887,
+   "equity": 46.12644257329852
   }
  ],
  "rej": [
@@ -607,7 +596,7 @@
   }
  ],
  "rej_total": 1794,
- "recent_rejections": 37,
- "updated_ts": 1795558688,
- "updated_manila": "2026-11-25 06:18 (Manila, UTC+8)"
+ "recent_rejections": 36,
+ "updated_ts": 1795558889,
+ "updated_manila": "2026-11-25 06:21 (Manila, UTC+8)"
 }
