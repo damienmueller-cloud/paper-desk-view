@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 38.48954477735074,
- "equity": 48.16093334480576,
+ "cash": 47.66550925803923,
+ "equity": 47.66550925803923,
  "trades_n": 56,
  "closed": {
-  "n": 55,
-  "pnl": 3.6695447773507617
+  "n": 56,
+  "pnl": 2.845509258039254
  },
- "open": [
-  {
-   "symbol": "JENSEN",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.0001014484831373272,
-   "last_px": 9.841e-05,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795535132.6495767,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.8x, m5 +17.2%; round-trip cost est 1.69%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "JENSEN",
    "chain": "solana",
    "cost": 10.0,
    "entry_px": 0.0001014484831373272,
-   "last_px": 9.841e-05,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 9.416e-05,
+   "exit_px": 9.364982388367105e-05,
+   "pnl": -0.8240355193115079,
    "opened": 1795535132.6495767,
-   "closed": null,
-   "status": "open",
+   "closed": 1795537329.9483712,
+   "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +17.2%; round-trip cost est 1.69%",
-   "reason_close": null
+   "reason_close": "stop loss -7.2%"
   },
   {
    "symbol": "DONJENSEN",
@@ -530,6 +515,10 @@
   {
    "ts": 1795529189.5401068,
    "equity": 48.48954477735074
+  },
+  {
+   "ts": 1795537329.9541407,
+   "equity": 47.66550925803923
   }
  ],
  "rej": [
@@ -591,7 +580,7 @@
   }
  ],
  "rej_total": 1691,
- "recent_rejections": 39,
- "updated_ts": 1795537237,
- "updated_manila": "2026-11-25 00:20 (Manila, UTC+8)"
+ "recent_rejections": 38,
+ "updated_ts": 1795537489,
+ "updated_manila": "2026-11-25 00:24 (Manila, UTC+8)"
 }
