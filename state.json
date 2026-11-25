@@ -556,7 +556,7 @@
   },
   {
    "check_name": "min_pair_age",
-   "n": 256
+   "n": 257
   },
   {
    "check_name": "max_pair_age",
@@ -564,11 +564,11 @@
   },
   {
    "check_name": "price_present",
-   "n": 68
+   "n": 69
   },
   {
    "check_name": "risk:desk_halted",
-   "n": 49
+   "n": 50
   },
   {
    "check_name": "min_volume",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1889,
+ "rej_total": 1892,
  "recent_rejections": 40,
- "updated_ts": 1795578176,
- "updated_manila": "2026-11-25 11:42 (Manila, UTC+8)"
+ "updated_ts": 1795578426,
+ "updated_manila": "2026-11-25 11:47 (Manila, UTC+8)"
 }
