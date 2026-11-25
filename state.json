@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 28.103036663344838,
- "equity": 36.944293697156056,
+ "cash": 36.505813625644286,
+ "equity": 36.505813625644286,
  "trades_n": 65,
  "closed": {
-  "n": 64,
-  "pnl": -7.356963336655154
+  "n": 65,
+  "pnl": -8.314186374355703
  },
- "open": [
-  {
-   "symbol": "Pompom",
-   "chain": "solana",
-   "cost": 9.36,
-   "entry_px": 0.0002806566440168697,
-   "last_px": 0.0002659,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795641462.1930933,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.9x, m5 +15.0%; round-trip cost est 1.64%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Pompom",
    "chain": "solana",
    "cost": 9.36,
    "entry_px": 0.0002806566440168697,
-   "last_px": 0.0002659,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0002548,
+   "exit_px": 0.0002534731713014497,
+   "pnl": -0.9572230377005493,
    "opened": 1795641462.1930933,
-   "closed": null,
-   "status": "open",
+   "closed": 1795642160.5647068,
+   "status": "closed",
    "reason_open": "volume spike 1.9x, m5 +15.0%; round-trip cost est 1.64%",
-   "reason_close": null
+   "reason_close": "stop loss -9.2%"
   },
   {
    "symbol": "MEDIC",
@@ -566,12 +551,16 @@
   {
    "ts": 1795635514.405938,
    "equity": 37.46303666334484
+  },
+  {
+   "ts": 1795642160.59004,
+   "equity": 36.505813625644286
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1511
+   "n": 1513
   },
   {
    "check_name": "min_pair_age",
@@ -626,8 +615,8 @@
    "n": 1
   }
  ],
- "rej_total": 2131,
- "recent_rejections": 39,
- "updated_ts": 1795642154,
- "updated_manila": "2026-11-26 05:29 (Manila, UTC+8)"
+ "rej_total": 2133,
+ "recent_rejections": 38,
+ "updated_ts": 1795642281,
+ "updated_manila": "2026-11-26 05:31 (Manila, UTC+8)"
 }
