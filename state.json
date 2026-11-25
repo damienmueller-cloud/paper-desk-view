@@ -568,7 +568,7 @@
   },
   {
    "check_name": "risk:desk_halted",
-   "n": 41
+   "n": 42
   },
   {
    "check_name": "min_volume",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1822,
+ "rej_total": 1823,
  "recent_rejections": 32,
- "updated_ts": 1795564706,
- "updated_manila": "2026-11-25 07:58 (Manila, UTC+8)"
+ "updated_ts": 1795564833,
+ "updated_manila": "2026-11-25 08:00 (Manila, UTC+8)"
 }
