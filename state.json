@@ -552,11 +552,11 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1372
+   "n": 1375
   },
   {
    "check_name": "min_pair_age",
-   "n": 263
+   "n": 264
   },
   {
    "check_name": "max_pair_age",
@@ -584,7 +584,7 @@
   },
   {
    "check_name": "holder_concentration",
-   "n": 14
+   "n": 15
   },
   {
    "check_name": "risk:max_position_size",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1943,
+ "rej_total": 1948,
  "recent_rejections": 40,
- "updated_ts": 1795584277,
- "updated_manila": "2026-11-25 13:24 (Manila, UTC+8)"
+ "updated_ts": 1795584607,
+ "updated_manila": "2026-11-25 13:30 (Manila, UTC+8)"
 }
