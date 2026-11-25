@@ -576,7 +576,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1540
+   "n": 1541
   },
   {
    "check_name": "min_pair_age",
@@ -588,7 +588,7 @@
   },
   {
    "check_name": "max_pair_age",
-   "n": 82
+   "n": 83
   },
   {
    "check_name": "risk:desk_halted",
@@ -631,8 +631,8 @@
    "n": 1
   }
  ],
- "rej_total": 2171,
+ "rej_total": 2173,
  "recent_rejections": 32,
- "updated_ts": 1795648029,
- "updated_manila": "2026-11-26 07:07 (Manila, UTC+8)"
+ "updated_ts": 1795648280,
+ "updated_manila": "2026-11-26 07:11 (Manila, UTC+8)"
 }
