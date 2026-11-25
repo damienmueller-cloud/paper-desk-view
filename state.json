@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 28.126592365860837,
- "equity": 37.53712395189365,
+ "cash": 37.46303666334484,
+ "equity": 37.46303666334484,
  "trades_n": 64,
  "closed": {
-  "n": 63,
-  "pnl": -7.323407634139151
+  "n": 64,
+  "pnl": -7.356963336655154
  },
- "open": [
-  {
-   "symbol": "MEDIC",
-   "chain": "solana",
-   "cost": 9.37,
-   "entry_px": 0.0002704130805720807,
-   "last_px": 0.0002724,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795635331.45572,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +14.7%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "MEDIC",
    "chain": "solana",
    "cost": 9.37,
    "entry_px": 0.0002704130805720807,
-   "last_px": 0.0002724,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0002725,
+   "exit_px": 0.0002710686536350142,
+   "pnl": -0.033555702516002484,
    "opened": 1795635331.45572,
-   "closed": null,
-   "status": "open",
+   "closed": 1795635514.3996396,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +14.7%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "volume died (m5 < $200) (+0.8%)"
   },
   {
    "symbol": "MARS",
@@ -562,16 +547,20 @@
   {
    "ts": 1795564453.8656254,
    "equity": 37.496592365860835
+  },
+  {
+   "ts": 1795635514.405938,
+   "equity": 37.46303666334484
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1477
+   "n": 1478
   },
   {
    "check_name": "min_pair_age",
-   "n": 267
+   "n": 268
   },
   {
    "check_name": "price_present",
@@ -622,8 +611,8 @@
    "n": 1
   }
  ],
- "rej_total": 2077,
- "recent_rejections": 39,
- "updated_ts": 1795635476,
- "updated_manila": "2026-11-26 03:37 (Manila, UTC+8)"
+ "rej_total": 2079,
+ "recent_rejections": 38,
+ "updated_ts": 1795635603,
+ "updated_manila": "2026-11-26 03:40 (Manila, UTC+8)"
 }
