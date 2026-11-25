@@ -584,7 +584,7 @@
   },
   {
    "check_name": "holder_concentration",
-   "n": 9
+   "n": 10
   },
   {
    "check_name": "risk:max_position_size",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1910,
+ "rej_total": 1911,
  "recent_rejections": 40,
- "updated_ts": 1795579467,
- "updated_manila": "2026-11-25 12:04 (Manila, UTC+8)"
+ "updated_ts": 1795579717,
+ "updated_manila": "2026-11-25 12:08 (Manila, UTC+8)"
 }
