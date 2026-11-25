@@ -576,11 +576,11 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1548
+   "n": 1549
   },
   {
    "check_name": "min_pair_age",
-   "n": 285
+   "n": 286
   },
   {
    "check_name": "price_present",
@@ -604,7 +604,7 @@
   },
   {
    "check_name": "min_buys",
-   "n": 23
+   "n": 24
   },
   {
    "check_name": "holder_concentration",
@@ -631,8 +631,8 @@
    "n": 1
   }
  ],
- "rej_total": 2182,
- "recent_rejections": 34,
- "updated_ts": 1795649611,
- "updated_manila": "2026-11-26 07:33 (Manila, UTC+8)"
+ "rej_total": 2185,
+ "recent_rejections": 36,
+ "updated_ts": 1795649737,
+ "updated_manila": "2026-11-26 07:35 (Manila, UTC+8)"
 }
