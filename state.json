@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 27.38581362564429,
- "equity": 35.9292530077909,
+ "cash": 38.26151115402991,
+ "equity": 38.26151115402991,
  "trades_n": 66,
  "closed": {
-  "n": 65,
-  "pnl": -8.314186374355703
+  "n": 66,
+  "pnl": -6.558488845970082
  },
- "open": [
-  {
-   "symbol": "NORFEATH",
-   "chain": "solana",
-   "cost": 9.12,
-   "entry_px": 0.00032428712653941505,
-   "last_px": 0.0003047,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795643734.9464815,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 2.0x, m5 +3.8%; round-trip cost est 1.65%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "NORFEATH",
    "chain": "solana",
    "cost": 9.12,
    "entry_px": 0.00032428712653941505,
-   "last_px": 0.0003047,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0003911,
+   "exit_px": 0.0003890466447416286,
+   "pnl": 1.755697528385621,
    "opened": 1795643734.9464815,
-   "closed": null,
-   "status": "open",
+   "closed": 1795643887.2480025,
+   "status": "closed",
    "reason_open": "volume spike 2.0x, m5 +3.8%; round-trip cost est 1.65%",
-   "reason_close": null
+   "reason_close": "take profit +20.6%"
   },
   {
    "symbol": "Pompom",
@@ -570,6 +555,10 @@
   {
    "ts": 1795642160.59004,
    "equity": 36.505813625644286
+  },
+  {
+   "ts": 1795643887.2514968,
+   "equity": 38.26151115402991
   }
  ],
  "rej": [
@@ -631,7 +620,7 @@
   }
  ],
  "rej_total": 2148,
- "recent_rejections": 37,
- "updated_ts": 1795643811,
- "updated_manila": "2026-11-26 05:56 (Manila, UTC+8)"
+ "recent_rejections": 36,
+ "updated_ts": 1795643937,
+ "updated_manila": "2026-11-26 05:58 (Manila, UTC+8)"
 }
