@@ -556,11 +556,11 @@
   },
   {
    "check_name": "min_pair_age",
-   "n": 262
+   "n": 263
   },
   {
    "check_name": "max_pair_age",
-   "n": 74
+   "n": 75
   },
   {
    "check_name": "price_present",
@@ -607,8 +607,8 @@
    "n": 1
   }
  ],
- "rej_total": 1932,
+ "rej_total": 1934,
  "recent_rejections": 40,
- "updated_ts": 1795583266,
- "updated_manila": "2026-11-25 13:07 (Manila, UTC+8)"
+ "updated_ts": 1795583393,
+ "updated_manila": "2026-11-25 13:09 (Manila, UTC+8)"
 }
