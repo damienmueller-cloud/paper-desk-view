@@ -1,15 +1,29 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 38.26151115402991,
- "equity": 38.26151115402991,
- "trades_n": 66,
+ "cash": 36.692609517754164,
+ "equity": 36.692609517754164,
+ "trades_n": 67,
  "closed": {
-  "n": 66,
-  "pnl": -6.558488845970082
+  "n": 67,
+  "pnl": -8.127390482245831
  },
  "open": [],
  "trades": [
+  {
+   "symbol": "4chanpump",
+   "chain": "solana",
+   "cost": 9.56,
+   "entry_px": 0.0002937297796709575,
+   "last_px": 0.0002483,
+   "exit_px": 0.00024700528583329265,
+   "pnl": -1.5689016362757489,
+   "opened": 1795644192.6590207,
+   "closed": 1795644222.7044945,
+   "status": "closed",
+   "reason_open": "volume spike 2.1x, m5 +37.9%; round-trip cost est 1.65%",
+   "reason_close": "stop loss -15.5%"
+  },
   {
    "symbol": "NORFEATH",
    "chain": "solana",
@@ -275,20 +289,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +44.0%; round-trip cost est 1.70%",
    "reason_close": "take profit +15.2%"
-  },
-  {
-   "symbol": "HYPERCAT",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00021643220174496775,
-   "last_px": 0.0001997,
-   "exit_px": 0.00019865210673517466,
-   "pnl": -0.8764971029402098,
-   "opened": 1793311933.9691522,
-   "closed": 1793312328.821211,
-   "status": "closed",
-   "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
-   "reason_close": "stop loss -7.7%"
   }
  ],
  "curve": [
@@ -559,12 +559,16 @@
   {
    "ts": 1795643887.2514968,
    "equity": 38.26151115402991
+  },
+  {
+   "ts": 1795644222.7107828,
+   "equity": 36.692609517754164
   }
  ],
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1522
+   "n": 1523
   },
   {
    "check_name": "min_pair_age",
@@ -619,8 +623,8 @@
    "n": 1
   }
  ],
- "rej_total": 2149,
- "recent_rejections": 36,
- "updated_ts": 1795644187,
- "updated_manila": "2026-11-26 06:03 (Manila, UTC+8)"
+ "rej_total": 2150,
+ "recent_rejections": 34,
+ "updated_ts": 1795644314,
+ "updated_manila": "2026-11-26 06:05 (Manila, UTC+8)"
 }
