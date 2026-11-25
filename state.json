@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 37.46303666334484,
- "equity": 37.46303666334484,
- "trades_n": 64,
+ "cash": 28.103036663344838,
+ "equity": 37.38652280038919,
+ "trades_n": 65,
  "closed": {
   "n": 64,
   "pnl": -7.356963336655154
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "Pompom",
+   "chain": "solana",
+   "cost": 9.36,
+   "entry_px": 0.0002806566440168697,
+   "last_px": 0.0002792,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795641462.1930933,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.9x, m5 +15.0%; round-trip cost est 1.64%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "Pompom",
+   "chain": "solana",
+   "cost": 9.36,
+   "entry_px": 0.0002806566440168697,
+   "last_px": 0.0002792,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795641462.1930933,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.9x, m5 +15.0%; round-trip cost est 1.64%",
+   "reason_close": null
+  },
   {
    "symbol": "MEDIC",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.8x, m5 +9.4%; round-trip cost est 1.68%",
    "reason_close": "time stop 45m (+7.8%)"
-  },
-  {
-   "symbol": "OREN",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00016577088504651866,
-   "last_px": 0.0001282,
-   "exit_px": 0.00012752684876669255,
-   "pnl": -2.353130323207294,
-   "opened": 1793303491.5149229,
-   "closed": 1793308420.8788261,
-   "status": "closed",
-   "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
-   "reason_close": "stop loss -22.7%"
   }
  ],
  "curve": [
@@ -556,11 +571,11 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1506
+   "n": 1508
   },
   {
    "check_name": "min_pair_age",
-   "n": 277
+   "n": 278
   },
   {
    "check_name": "price_present",
@@ -580,7 +595,7 @@
   },
   {
    "check_name": "risk:max_open_positions",
-   "n": 25
+   "n": 26
   },
   {
    "check_name": "min_buys",
@@ -611,8 +626,8 @@
    "n": 1
   }
  ],
- "rej_total": 2121,
- "recent_rejections": 40,
- "updated_ts": 1795640006,
- "updated_manila": "2026-11-26 04:53 (Manila, UTC+8)"
+ "rej_total": 2125,
+ "recent_rejections": 39,
+ "updated_ts": 1795641504,
+ "updated_manila": "2026-11-26 05:18 (Manila, UTC+8)"
 }
