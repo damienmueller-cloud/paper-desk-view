@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 37.496592365860835,
- "equity": 37.496592365860835,
- "trades_n": 63,
+ "cash": 28.126592365860837,
+ "equity": 37.419665040761075,
+ "trades_n": 64,
  "closed": {
   "n": 63,
   "pnl": -7.323407634139151
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "MEDIC",
+   "chain": "solana",
+   "cost": 9.37,
+   "entry_px": 0.0002704130805720807,
+   "last_px": 0.000269,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795635331.45572,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +14.7%; round-trip cost est 1.65%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "MEDIC",
+   "chain": "solana",
+   "cost": 9.37,
+   "entry_px": 0.0002704130805720807,
+   "last_px": 0.000269,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795635331.45572,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 1.3x, m5 +14.7%; round-trip cost est 1.65%",
+   "reason_close": null
+  },
   {
    "symbol": "MARS",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.6x, m5 +18.6%; round-trip cost est 1.66%",
    "reason_close": "stop loss -22.7%"
-  },
-  {
-   "symbol": "STANK",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 8.580016108981838e-05,
-   "last_px": 0.0001114,
-   "exit_px": 0.00011079389107284356,
-   "pnl": 2.835654790454111,
-   "opened": 1793303278.4846084,
-   "closed": 1793303490.8486123,
-   "status": "closed",
-   "reason_open": "volume spike 6.6x, m5 +12.8%; round-trip cost est 1.68%",
-   "reason_close": "take profit +29.8%"
   }
  ],
  "curve": [
@@ -552,19 +567,19 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1448
+   "n": 1476
   },
   {
    "check_name": "min_pair_age",
-   "n": 266
+   "n": 267
+  },
+  {
+   "check_name": "price_present",
+   "n": 81
   },
   {
    "check_name": "max_pair_age",
    "n": 81
-  },
-  {
-   "check_name": "price_present",
-   "n": 80
   },
   {
    "check_name": "risk:desk_halted",
@@ -599,16 +614,16 @@
    "n": 2
   },
   {
-   "check_name": "mint_authority",
-   "n": 1
+   "check_name": "fdv_liq_ratio",
+   "n": 2
   },
   {
-   "check_name": "fdv_liq_ratio",
+   "check_name": "mint_authority",
    "n": 1
   }
  ],
- "rej_total": 2045,
- "recent_rejections": 40,
- "updated_ts": 1795618130,
- "updated_manila": "2026-11-25 22:48 (Manila, UTC+8)"
+ "rej_total": 2076,
+ "recent_rejections": 39,
+ "updated_ts": 1795635348,
+ "updated_manila": "2026-11-26 03:35 (Manila, UTC+8)"
 }
