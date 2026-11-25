@@ -1,15 +1,44 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 36.505813625644286,
- "equity": 36.505813625644286,
- "trades_n": 65,
+ "cash": 27.38581362564429,
+ "equity": 35.9292530077909,
+ "trades_n": 66,
  "closed": {
   "n": 65,
   "pnl": -8.314186374355703
  },
- "open": [],
+ "open": [
+  {
+   "symbol": "NORFEATH",
+   "chain": "solana",
+   "cost": 9.12,
+   "entry_px": 0.00032428712653941505,
+   "last_px": 0.0003047,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795643734.9464815,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.0x, m5 +3.8%; round-trip cost est 1.65%",
+   "reason_close": null
+  }
+ ],
  "trades": [
+  {
+   "symbol": "NORFEATH",
+   "chain": "solana",
+   "cost": 9.12,
+   "entry_px": 0.00032428712653941505,
+   "last_px": 0.0003047,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795643734.9464815,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 2.0x, m5 +3.8%; round-trip cost est 1.65%",
+   "reason_close": null
+  },
   {
    "symbol": "Pompom",
    "chain": "solana",
@@ -275,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 3.1x, m5 +5.7%; round-trip cost est 1.65%",
    "reason_close": "stop loss -7.7%"
-  },
-  {
-   "symbol": "$CHIMP",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 0.00010616967658261495,
-   "last_px": 0.0001144,
-   "exit_px": 0.00011378170971277244,
-   "pnl": 0.6527633059026492,
-   "opened": 1793308513.9849536,
-   "closed": 1793311386.6058626,
-   "status": "closed",
-   "reason_open": "volume spike 1.8x, m5 +9.4%; round-trip cost est 1.68%",
-   "reason_close": "time stop 45m (+7.8%)"
   }
  ],
  "curve": [
@@ -560,7 +575,7 @@
  "rej": [
   {
    "check_name": "min_liquidity",
-   "n": 1518
+   "n": 1521
   },
   {
    "check_name": "min_pair_age",
@@ -615,8 +630,8 @@
    "n": 1
   }
  ],
- "rej_total": 2145,
- "recent_rejections": 38,
- "updated_ts": 1795643683,
- "updated_manila": "2026-11-26 05:54 (Manila, UTC+8)"
+ "rej_total": 2148,
+ "recent_rejections": 37,
+ "updated_ts": 1795643811,
+ "updated_manila": "2026-11-26 05:56 (Manila, UTC+8)"
 }
