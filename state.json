@@ -1,43 +1,57 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 26.591719946062305,
- "equity": 35.55603569832592,
- "trades_n": 72,
+ "cash": 25.71928743344882,
+ "equity": 34.05037378618069,
+ "trades_n": 73,
  "closed": {
-  "n": 71,
-  "pnl": -9.368280053937681
+  "n": 72,
+  "pnl": -10.540712566551163
  },
  "open": [
   {
-   "symbol": "Grodia",
+   "symbol": "MONEY",
    "chain": "solana",
-   "cost": 8.86,
-   "entry_px": 0.0017096657596124922,
-   "last_px": 0.001735,
+   "cost": 8.56,
+   "entry_px": 0.0007325445894578659,
+   "last_px": 0.0007151,
    "exit_px": null,
    "pnl": null,
-   "opened": 1795654204.7284977,
+   "opened": 1795655340.6497614,
    "closed": null,
    "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +29.7%; round-trip cost est 1.62%",
+   "reason_open": "volume spike 4.5x, m5 +24.9%; round-trip cost est 1.63%",
    "reason_close": null
   }
  ],
  "trades": [
   {
+   "symbol": "MONEY",
+   "chain": "solana",
+   "cost": 8.56,
+   "entry_px": 0.0007325445894578659,
+   "last_px": 0.0007151,
+   "exit_px": null,
+   "pnl": null,
+   "opened": 1795655340.6497614,
+   "closed": null,
+   "status": "open",
+   "reason_open": "volume spike 4.5x, m5 +24.9%; round-trip cost est 1.63%",
+   "reason_close": null
+  },
+  {
    "symbol": "Grodia",
    "chain": "solana",
    "cost": 8.86,
    "entry_px": 0.0017096657596124922,
-   "last_px": 0.001735,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0015,
+   "exit_px": 0.0014923686482800817,
+   "pnl": -1.1724325126134811,
    "opened": 1795654204.7284977,
-   "closed": null,
-   "status": "open",
+   "closed": 1795655340.245721,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +29.7%; round-trip cost est 1.62%",
-   "reason_close": null
+   "reason_close": "stop loss -12.3%"
   },
   {
    "symbol": "PLAZA",
@@ -290,20 +304,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.4x, m5 +30.4%; round-trip cost est 1.63%",
    "reason_close": "take profit +15.1%"
-  },
-  {
-   "symbol": "FLUKE",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 9.864714146163613e-05,
-   "last_px": 9.102e-05,
-   "exit_px": 9.053254940387631e-05,
-   "pnl": -0.8775695304465696,
-   "opened": 1793328693.9992933,
-   "closed": 1793328724.075056,
-   "status": "closed",
-   "reason_open": "volume spike 1.8x, m5 +96.5%; round-trip cost est 1.67%",
-   "reason_close": "stop loss -7.7%"
   }
  ],
  "curve": [
@@ -594,6 +594,10 @@
   {
    "ts": 1795652608.828235,
    "equity": 35.451719946062305
+  },
+  {
+   "ts": 1795655340.2506244,
+   "equity": 34.27928743344882
   }
  ],
  "rej": [
@@ -655,7 +659,7 @@
   }
  ],
  "rej_total": 2204,
- "recent_rejections": 35,
- "updated_ts": 1795655288,
- "updated_manila": "2026-11-26 09:08 (Manila, UTC+8)"
+ "recent_rejections": 33,
+ "updated_ts": 1795655415,
+ "updated_manila": "2026-11-26 09:10 (Manila, UTC+8)"
 }
