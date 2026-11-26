@@ -1,15 +1,29 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 36.8416111860744,
- "equity": 36.8416111860744,
- "trades_n": 70,
+ "cash": 35.451719946062305,
+ "equity": 35.451719946062305,
+ "trades_n": 71,
  "closed": {
-  "n": 70,
-  "pnl": -7.978388813925586
+  "n": 71,
+  "pnl": -9.368280053937681
  },
  "open": [],
  "trades": [
+  {
+   "symbol": "PLAZA",
+   "chain": "solana",
+   "cost": 9.21,
+   "entry_px": 0.00013402050046448493,
+   "last_px": 0.0001151,
+   "exit_px": 0.00011448117591057862,
+   "pnl": -1.389891240012095,
+   "opened": 1795652578.7768612,
+   "closed": 1795652608.825754,
+   "status": "closed",
+   "reason_open": "volume spike 1.4x, m5 +57.2%; round-trip cost est 1.68%",
+   "reason_close": "stop loss -14.1%"
+  },
   {
    "symbol": "AMD",
    "chain": "solana",
@@ -275,20 +289,6 @@
    "status": "closed",
    "reason_open": "volume spike 1.9x, m5 +136.0%; round-trip cost est 1.68%",
    "reason_close": "take profit +15.7%"
-  },
-  {
-   "symbol": "SAFU",
-   "chain": "solana",
-   "cost": 10.0,
-   "entry_px": 7.042388332766653e-05,
-   "last_px": 6.204e-05,
-   "exit_px": 6.170198433609211e-05,
-   "pnl": -1.290976178838502,
-   "opened": 1793324056.8646464,
-   "closed": 1793324269.3856874,
-   "status": "closed",
-   "reason_open": "volume spike 3.1x, m5 +55.0%; round-trip cost est 1.70%",
-   "reason_close": "stop loss -11.9%"
   }
  ],
  "curve": [
@@ -575,6 +575,10 @@
   {
    "ts": 1795650637.5380933,
    "equity": 36.8416111860744
+  },
+  {
+   "ts": 1795652608.828235,
+   "equity": 35.451719946062305
   }
  ],
  "rej": [
@@ -636,7 +640,7 @@
   }
  ],
  "rej_total": 2194,
- "recent_rejections": 36,
- "updated_ts": 1795652037,
- "updated_manila": "2026-11-26 08:13 (Manila, UTC+8)"
+ "recent_rejections": 34,
+ "updated_ts": 1795652655,
+ "updated_manila": "2026-11-26 08:24 (Manila, UTC+8)"
 }
