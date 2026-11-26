@@ -1,43 +1,28 @@
 {
  "label": "Practice mode, fake money",
  "start": 44.82,
- "cash": 25.055733515640863,
- "equity": 33.32820019254457,
+ "cash": 32.46025926115265,
+ "equity": 32.46025926115265,
  "trades_n": 74,
  "closed": {
-  "n": 73,
-  "pnl": -11.424266484359116
+  "n": 74,
+  "pnl": -12.359740738847332
  },
- "open": [
-  {
-   "symbol": "Zero",
-   "chain": "solana",
-   "cost": 8.34,
-   "entry_px": 0.0006354489611516375,
-   "last_px": 0.0006322,
-   "exit_px": null,
-   "pnl": null,
-   "opened": 1795655523.5365944,
-   "closed": null,
-   "status": "open",
-   "reason_open": "volume spike 1.3x, m5 +32.0%; round-trip cost est 1.63%",
-   "reason_close": null
-  }
- ],
+ "open": [],
  "trades": [
   {
    "symbol": "Zero",
    "chain": "solana",
    "cost": 8.34,
    "entry_px": 0.0006354489611516375,
-   "last_px": 0.0006322,
-   "exit_px": null,
-   "pnl": null,
+   "last_px": 0.0005705,
+   "exit_px": 0.0005675727736676203,
+   "pnl": -0.9354742544882146,
    "opened": 1795655523.5365944,
-   "closed": null,
-   "status": "open",
+   "closed": 1795655583.9875758,
+   "status": "closed",
    "reason_open": "volume spike 1.3x, m5 +32.0%; round-trip cost est 1.63%",
-   "reason_close": null
+   "reason_close": "stop loss -10.2%"
   },
   {
    "symbol": "MONEY",
@@ -602,6 +587,10 @@
   {
    "ts": 1795655492.346258,
    "equity": 33.39573351564086
+  },
+  {
+   "ts": 1795655583.994991,
+   "equity": 32.46025926115265
   }
  ],
  "rej": [
@@ -631,7 +620,7 @@
   },
   {
    "check_name": "risk:max_open_positions",
-   "n": 29
+   "n": 30
   },
   {
    "check_name": "min_buys",
@@ -662,8 +651,8 @@
    "n": 1
   }
  ],
- "rej_total": 2204,
- "recent_rejections": 31,
- "updated_ts": 1795655542,
- "updated_manila": "2026-11-26 09:12 (Manila, UTC+8)"
+ "rej_total": 2205,
+ "recent_rejections": 30,
+ "updated_ts": 1795655668,
+ "updated_manila": "2026-11-26 09:14 (Manila, UTC+8)"
 }
